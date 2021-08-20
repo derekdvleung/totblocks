@@ -2,6 +2,7 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 Method documentation:
 
+***************************
 MODULES
 ***************************
 
@@ -30,7 +31,7 @@ A temporary method for producing O modules for kalifersite, which have the width
 m = number of M sites in the module (2 = single chain, 5 = double chain, 8 = triple chain)
 apex = direction that the octahedra point (PLUS or MINUS)
 
-
+***************************
 SINGLE OCTAHEDRON PIECE
 ***************************
 
@@ -41,6 +42,7 @@ Produces a single octahedron piece. Note that there is no difference between PLU
 apex = direction that the octahedra point (PLUS or MINUS)
 pegs = if TRUE, includes clips for the octahedra; if FALSE, does not include clips
 
+***************************
 PEG CONNECTORS
 ***************************
 
@@ -56,6 +58,8 @@ Produces a vertical peg for the chlorite and brucite groups, as well as lizardit
 
 length = length of peg (chlorite = CHLORITE_HEIGHT, brucite = BRUCITE_HEIGHT, lizardite = LIZARDITE_HEIGHT)
 
+
+***************************
 DUAL PRINTS
 ***************************
 
@@ -76,6 +80,7 @@ n = width of module (1 = single chain, 2 = double chain, 3 = triple chain)
 apex = direction that the tetrahedra point (PLUS or MINUS)
 dual = part number (0 or 1)
 
+***************************
 QUARTZ
 ***************************
 
