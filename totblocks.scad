@@ -26,8 +26,9 @@ tx = t/sqrt(12); //length of line segment from base of triangle to centroid of t
 th = sqrt(6)/3*t; // true height of tetrahedron
 tCR = sqrt(6)/4*t; //circumradius of tetrahedron
 
-factor = tCR/1.619; //the scale of the structure, assuming a Si-O bond distance of 1.619 A
+factor = tCR/1.62; //the scale of the structure, assuming a Si-O bond distance of 1.619 A
 
+//echo(oh);
 echo (th/factor); // real height of tetrahedron in A
 echo (oh/factor); // real height of octahedron in A
 
@@ -47,6 +48,10 @@ oh = sqrt(o*o-(2*ox*2*ox)); //true height of flat-lying octahedron
 oCR = o*sqrt(1/2); // double-checked bond distance of O sites
 
 echo (oCR/factor); // bond distance of O sites
+
+echo (2*ts/(oh+2*th)); // ratio of width to height of modules
+
+echo ((th+oh)/(oh+2*th)); // vertical offset for pyribole-type linkages
 
 pegRadius = 1.8;//1; //radii of pegs (mm)
 pegZLength = 2.4;////oh/2; //length of pegs (mm)
@@ -1769,9 +1774,9 @@ module multiColourQtz(){
 //n=1;
 //m = 3*n-1;
 
-//tBlock (n=1, apex = PLUS);
+tBlock (n=1, apex = PLUS);
 
-//oBlock (m = 2, apex = PLUS);
+oBlock (m = 2, apex = PLUS);
 
 //oBlockKalifersite (m = 3, apex = PLUS);
 
