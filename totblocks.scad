@@ -78,8 +78,8 @@ numBlocks = 2; // this is the length of the blocks, can be modified as necessary
 
 extraBlocks = numBlocks-1; //number of blocks, not including base block
 
-PLUS = 0;
-MINUS = 1;
+PLUS = 0; // constants used to define the direction of the modules
+MINUS = 1; // constants used to define the direction of the modules
 
 // Variable note:
 // n = number of tetrahedra per basic module (T/2)

@@ -2,6 +2,47 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
+How do I 3D print TotBlocks?
+We are currently working on a tutorial video for 3D printing TotBlocks.
+The 3D models are available as *.3mf (Prusaslicer project files) and *.stl files for 3D printing. 
+Note that the *.3mf files include the positions for support enforcers for O modules (oblock), 
+whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer) has to be added for the overhanging horizontal pegs of the O modules.
+
+***************************
+File contents:
+***************************
+
+stl/					All the *.stl files can be found in this folder.
+	connectors/			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
+		brucite-connector.stl	
+		chlorite-connector.stl
+		lizardite-connector.stl
+		mica-connector.stl
+	
+	dual/				3D models used for the dual-colour version of TotBlocks.
+		oblock-m2-plus-dual-0.stl
+		oblock-m2-plus-dual-1.stl
+		tblock-n1-minus-dual-0.stl
+		tblock-n1-minus-dual-1.stl
+		tblock-n1-plus-dual-0.stl
+		tblock-n1-plus-dual-1.stl
+		
+	oblock/				O modules (m = Z from Nespolo and Bouznari, 2017)
+		oblock-m2-minus.stl		single chain (w = 1) module (-)
+		oblock-m2-plus.stl		single chain (w = 1) module (+)
+		oblock-m3-plus.stl		for kalifersite
+		oblock-m5-minus.stl		double chain (w = 2) module (-)
+		oblock-m5-plus.stl		double chain (w = 2) module (+)
+		oblock-m6-plus.stl		Z6 module for kalifersite
+		oblock-m8-minus.stl		
+		
+	
+	
+
+LICENSE 				The copyright license (GPLv3) for the TotBlocks project.
+totblocks.scad			The source code to generate TotBlocks. See below for method documentation for totblocks.scad.
+
+
 Method documentation:
 
 ***************************
