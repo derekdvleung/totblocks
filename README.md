@@ -1,3 +1,4 @@
+# Introduction
 TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of biopyribole-palysepiole minerals.
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
@@ -11,12 +12,12 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 
 # File contents:
 
-	stl/					All the *.stl files can be found in this folder.
-		connectors/			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
-			brucite-connector.stl		For brucite structure
-			chlorite-connector.stl		For chlorite structure
-			lizardite-connector.stl		For lizardite (kaolinite-serpentine group) structure
-			mica-connector.stl			For mica (2:1 phyllosilicate) structure
+- 'stl/'					All the *.stl files can be found in this folder.
+  -	'connectors/'			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
+	- 'brucite-connector.stl'		For brucite structure
+	- 'chlorite-connector.stl'		For chlorite structure
+	- 'lizardite-connector.stl'	For lizardite (kaolinite-serpentine group) structure
+	- mica-connector.stl			For mica (2:1 phyllosilicate) structure
 	
 		dual/				3D models used for the dual-colour version of TotBlocks (single chain, w = 1). 
 							Each model has two parts, corresponding to two the different colours used in dual extrusion printing.
@@ -48,9 +49,8 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 
 
 # Method documentation:
-***************************
+
 ## Modules
-***************************
 
 	tBlock (n = 1, apex = PLUS);
 
@@ -80,9 +80,9 @@ m = number of M sites in the module (2 = single chain, 5 = double chain, 8 = tri
 
 apex = direction that the octahedra point (PLUS or MINUS)
 
-***************************
+
 ## Single octahedron pieces
-***************************
+
 
 	oBlockOne (apex = PLUS, pegs = true);
 
@@ -92,9 +92,9 @@ apex = direction that the octahedra point (PLUS or MINUS)
 
 pegs = if TRUE, includes clips for the octahedra; if FALSE, does not include clips
 
-***************************
-##Peg connectors
-***************************
+
+## Peg connectors
+
 
 	micaPeg ();
 
@@ -109,9 +109,8 @@ Produces a vertical peg for the chlorite and brucite groups, as well as lizardit
 length = length of peg (chlorite = CHLORITE_HEIGHT, brucite = BRUCITE_HEIGHT, lizardite = LIZARDITE_HEIGHT)
 
 
-***************************
 ## Dual prints
-***************************
+
 
 	oBlockDual (apex = PLUS, dual = 0);
 
@@ -133,9 +132,9 @@ apex = direction that the tetrahedra point (PLUS or MINUS)
 
 dual = part number (0 or 1)
 
-***************************
+
 ## Quartz
-***************************
+
 
 quartzModule ();
 
