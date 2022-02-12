@@ -9,7 +9,7 @@ Note that the *.3mf files include the positions for support enforcers for O modu
 whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer) has to be added for the overhanging horizontal pegs of the O modules.
 
 
-#File contents:
+# File contents:
 
 	stl/					All the *.stl files can be found in this folder.
 		connectors/			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
@@ -47,9 +47,9 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 	 Strictly speaking, the T+ and T- notation corresponds to the orientation of the T modules (apices pointing up = +, down = -) rather than the modules themselves.
 
 
-#Method documentation:
+# Method documentation:
 ***************************
-##Modules
+## Modules
 ***************************
 
 	tBlock (n = 1, apex = PLUS);
@@ -81,7 +81,7 @@ m = number of M sites in the module (2 = single chain, 5 = double chain, 8 = tri
 apex = direction that the octahedra point (PLUS or MINUS)
 
 ***************************
-##Single octahedron pieces
+## Single octahedron pieces
 ***************************
 
 	oBlockOne (apex = PLUS, pegs = true);
@@ -110,7 +110,7 @@ length = length of peg (chlorite = CHLORITE_HEIGHT, brucite = BRUCITE_HEIGHT, li
 
 
 ***************************
-##Dual prints
+## Dual prints
 ***************************
 
 	oBlockDual (apex = PLUS, dual = 0);
@@ -134,7 +134,7 @@ apex = direction that the tetrahedra point (PLUS or MINUS)
 dual = part number (0 or 1)
 
 ***************************
-##Quartz
+## Quartz
 ***************************
 
 quartzModule ();
