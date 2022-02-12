@@ -10,14 +10,17 @@ Note that the *.3mf files include the positions for support enforcers for O modu
 whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer) has to be added for the overhanging horizontal pegs of the O modules.
 
 
+
 # File contents:
 
-- 'stl/'					All the *.stl files can be found in this folder.
-  -	'connectors/'			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
-	- 'brucite-connector.stl'		For brucite structure
-	- 'chlorite-connector.stl'		For chlorite structure
-	- 'lizardite-connector.stl'	For lizardite (kaolinite-serpentine group) structure
-	- mica-connector.stl			For mica (2:1 phyllosilicate) structure
+<!-- todo: add links -->
+
+- `stl/`					All the *.stl files can be found in this folder.
+  -	`connectors/`			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
+	- `brucite-connector.stl`		For brucite structure
+	- `chlorite-connector.stl`		For chlorite structure
+	- `lizardite-connector.stl`	For lizardite (kaolinite-serpentine group) structure
+	- `mica-connector.stl`			For mica (2:1 phyllosilicate) structure
 	
 		dual/				3D models used for the dual-colour version of TotBlocks (single chain, w = 1). 
 							Each model has two parts, corresponding to two the different colours used in dual extrusion printing.
