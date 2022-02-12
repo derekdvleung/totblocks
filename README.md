@@ -8,9 +8,8 @@ The 3D models are available as *.3mf (Prusaslicer project files) and *.stl files
 Note that the *.3mf files include the positions for support enforcers for O modules (oblock), 
 whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer) has to be added for the overhanging horizontal pegs of the O modules.
 
-***************************
-File contents:
-***************************
+
+#File contents:
 
 	stl/					All the *.stl files can be found in this folder.
 		connectors/			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
@@ -44,17 +43,16 @@ File contents:
 	LICENSE 				The copyright license (GPLv3) for the TotBlocks project.
 	totblocks.scad			The source code to generate TotBlocks. See below for method documentation for totblocks.scad.
 
-*Note that the T+ and T- notation is used here to differentiate between the two types of T modules. 
- Strictly speaking, the T+ and T- notation corresponds to the orientation of the T modules (apices pointing up = +, down = -) rather than the modules themselves.
+	*Note that the T+ and T- notation is used here to differentiate between the two types of T modules. 
+	 Strictly speaking, the T+ and T- notation corresponds to the orientation of the T modules (apices pointing up = +, down = -) rather than the modules themselves.
 
 
-Method documentation:
-
+#Method documentation:
 ***************************
-MODULES
+##Modules
 ***************************
 
-tBlock (n = 1, apex = PLUS);
+	tBlock (n = 1, apex = PLUS);
 
 Produces a T module of certain width and polarity.
 
@@ -64,7 +62,7 @@ apex = direction that the tetrahedra point (PLUS or MINUS)
 
 ***
 
-oBlock (m = 2, apex = PLUS);
+	oBlock (m = 2, apex = PLUS);
 
 Produces an O module of certain width and polarity
 
@@ -74,7 +72,7 @@ apex = direction that the octahedra point (PLUS or MINUS)
 
 ***
 
-oBlockKalifersite (m = 2, apex = PLUS);
+	oBlockKalifersite (m = 2, apex = PLUS);
 
 A temporary method for producing O modules for kalifersite, which have the width-wise pegs removed. It is anticipated that this method will be deprecated and added to the oBlock method.
  
@@ -83,10 +81,10 @@ m = number of M sites in the module (2 = single chain, 5 = double chain, 8 = tri
 apex = direction that the octahedra point (PLUS or MINUS)
 
 ***************************
-SINGLE OCTAHEDRON PIECE
+##Single octahedron pieces
 ***************************
 
-oBlockOne (apex = PLUS, pegs = true);
+	oBlockOne (apex = PLUS, pegs = true);
 
 Produces a single octahedron piece. Note that there is no difference between PLUS and MINUS versions.
 
@@ -95,16 +93,16 @@ apex = direction that the octahedra point (PLUS or MINUS)
 pegs = if TRUE, includes clips for the octahedra; if FALSE, does not include clips
 
 ***************************
-PEG CONNECTORS
+##Peg connectors
 ***************************
 
-micaPeg ();
+	micaPeg ();
 
 Produces a vertical peg for the mica-group minerals.
 
 ***
 
-chloriteBrucitePeg (length);
+	chloriteBrucitePeg (length);
 
 Produces a vertical peg for the chlorite and brucite groups, as well as lizardite (kaolinite-serpentine group)
 
@@ -112,10 +110,10 @@ length = length of peg (chlorite = CHLORITE_HEIGHT, brucite = BRUCITE_HEIGHT, li
 
 
 ***************************
-DUAL PRINTS
+##Dual prints
 ***************************
 
-oBlockDual (apex = PLUS, dual = 0);
+	oBlockDual (apex = PLUS, dual = 0);
 
 Produces two parts of a dual print for single-chain-width O modules.
 
@@ -125,7 +123,7 @@ dual = part number (0 or 1)
 
 ***
 
-tBlockDual2 (n = 1, apex = PLUS, dual = 0);
+	tBlockDual2 (n = 1, apex = PLUS, dual = 0);
 
 Produces two parts of a dual print for T modules.
 
@@ -136,7 +134,7 @@ apex = direction that the tetrahedra point (PLUS or MINUS)
 dual = part number (0 or 1)
 
 ***************************
-QUARTZ
+##Quartz
 ***************************
 
 quartzModule ();
