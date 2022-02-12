@@ -32,11 +32,11 @@ stl/					All the *.stl files can be found in this folder.
 	oblock/				O modules (m = Z from Nespolo and Bouznari, 2017)
 		oblock-m2-minus.stl		single chain (w = 1) O- module
 		oblock-m2-plus.stl		single chain (w = 1) O+ module
-		oblock-m3-plus.stl		O+ module for kalifersite
+		oblock-m3-plus.stl		Z3 O+ module for kalifersite
 		oblock-m5-minus.stl		double chain (w = 2) O- module
 		oblock-m5-plus.stl		double chain (w = 2) O+ module
-		oblock-m6-plus.stl		Z6 module for kalifersite
-		oblock-m8-minus.stl		
+		oblock-m6-plus.stl		Z6 O+ module for kalifersite
+		oblock-m8-minus.stl		triple chain (w = 3) O- module
 		
 	
 	

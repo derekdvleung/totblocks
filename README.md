@@ -12,37 +12,37 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 File contents:
 ***************************
 
-stl/					All the *.stl files can be found in this folder.
-	connectors/			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
-		brucite-connector.stl		For brucite structure
-		chlorite-connector.stl		For chlorite structure
-		lizardite-connector.stl		For lizardite (kaolinite-serpentine group) structure
-		mica-connector.stl			For mica (2:1 phyllosilicate) structure
+	stl/					All the *.stl files can be found in this folder.
+		connectors/			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
+			brucite-connector.stl		For brucite structure
+			chlorite-connector.stl		For chlorite structure
+			lizardite-connector.stl		For lizardite (kaolinite-serpentine group) structure
+			mica-connector.stl			For mica (2:1 phyllosilicate) structure
 	
-	dual/				3D models used for the dual-colour version of TotBlocks (single chain, w = 1). 
-						Each model has two parts, corresponding to two the different colours used in dual extrusion printing.
-						These models should be overlain in the slicer for dual printing.
-		oblock-m2-plus-dual-0.stl	O+ module, part 1
-		oblock-m2-plus-dual-1.stl	O+ module, part 2
-		tblock-n1-minus-dual-0.stl	T- module, part 1*
-		tblock-n1-minus-dual-1.stl	T- module, part 2*
-		tblock-n1-plus-dual-0.stl	T+ module, part 1*
-		tblock-n1-plus-dual-1.stl	T+ module, part 2*
+		dual/				3D models used for the dual-colour version of TotBlocks (single chain, w = 1). 
+							Each model has two parts, corresponding to two the different colours used in dual extrusion printing.
+							These models should be overlain in the slicer for dual printing.
+			oblock-m2-plus-dual-0.stl	O+ module, part 1
+			oblock-m2-plus-dual-1.stl	O+ module, part 2
+			tblock-n1-minus-dual-0.stl	T- module, part 1*
+			tblock-n1-minus-dual-1.stl	T- module, part 2*
+			tblock-n1-plus-dual-0.stl	T+ module, part 1*
+			tblock-n1-plus-dual-1.stl	T+ module, part 2*
 		
-	oblock/				O modules (m = Z from Nespolo and Bouznari, 2017)
-		oblock-m2-minus.stl		single chain (w = 1) O- module
-		oblock-m2-plus.stl		single chain (w = 1) O+ module
-		oblock-m3-plus.stl		Z3 O+ module for kalifersite
-		oblock-m5-minus.stl		double chain (w = 2) O- module
-		oblock-m5-plus.stl		double chain (w = 2) O+ module
-		oblock-m6-plus.stl		Z6 O+ module for kalifersite
-		oblock-m8-minus.stl		triple chain (w = 3) O- module
+		oblock/				O modules (m = Z from Nespolo and Bouznari, 2017)
+			oblock-m2-minus.stl		single chain (w = 1) O- module
+			oblock-m2-plus.stl		single chain (w = 1) O+ module
+			oblock-m3-plus.stl		Z3 O+ module for kalifersite
+			oblock-m5-minus.stl		double chain (w = 2) O- module
+			oblock-m5-plus.stl		double chain (w = 2) O+ module
+			oblock-m6-plus.stl		Z6 O+ module for kalifersite
+			oblock-m8-minus.stl		triple chain (w = 3) O- module
 		
 	
 	
 
-LICENSE 				The copyright license (GPLv3) for the TotBlocks project.
-totblocks.scad			The source code to generate TotBlocks. See below for method documentation for totblocks.scad.
+	LICENSE 				The copyright license (GPLv3) for the TotBlocks project.
+	totblocks.scad			The source code to generate TotBlocks. See below for method documentation for totblocks.scad.
 
 *Note that the T+ and T- notation is used here to differentiate between the two types of T modules. 
  Strictly speaking, the T+ and T- notation corresponds to the orientation of the T modules (apices pointing up = +, down = -) rather than the modules themselves.
