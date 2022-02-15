@@ -1,4 +1,5 @@
 # Introduction
+
 TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of biopyribole-palysepiole minerals.
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
@@ -9,11 +10,12 @@ The 3D models are available as *.3mf (Prusaslicer project files) and *.stl files
 Note that the *.3mf files include the positions for support enforcers for O modules (oblock), 
 whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer) has to be added for the overhanging horizontal pegs of the O modules.
 
-
-
-# File contents:
+# Repository contents
 
 <!-- todo: add links -->
+
+- `3mf`						All the *.3mf (Prusaslicer project files) can be found in this folder.
+<!-- todo: add these files -->
 
 - `stl/`					All the *.stl files can be found in this folder.
   -	`connectors/`			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
@@ -22,33 +24,55 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 	- `lizardite-connector.stl`	For lizardite (kaolinite-serpentine group) structure
 	- `mica-connector.stl`			For mica (2:1 phyllosilicate) structure
 	
-		dual/				3D models used for the dual-colour version of TotBlocks (single chain, w = 1). 
+- `dual/` 					3D models used for the dual-colour version of TotBlocks (single chain, w = 1). 
 							Each model has two parts, corresponding to two the different colours used in dual extrusion printing.
 							These models should be overlain in the slicer for dual printing.
-			oblock-m2-plus-dual-0.stl	O+ module, part 1
-			oblock-m2-plus-dual-1.stl	O+ module, part 2
-			tblock-n1-minus-dual-0.stl	T- module, part 1*
-			tblock-n1-minus-dual-1.stl	T- module, part 2*
-			tblock-n1-plus-dual-0.stl	T+ module, part 1*
-			tblock-n1-plus-dual-1.stl	T+ module, part 2*
+  - `oblock-m2-plus-dual-0.stl`		O+ module, part 1.
+  - `oblock-m2-plus-dual-1.stl`		O+ module, part 2.
+  - `tblock-n1-minus-dual-0.stl`	T- module, part 1.[^1]
+  - `tblock-n1-minus-dual-1.stl`	T- module, part 2.[^1]
+  - `tblock-n1-plus-dual-0.stl`		T+ module, part 1.[^1]
+  - `tblock-n1-plus-dual-1.stl`		T+ module, part 2.[^1]
 		
-		oblock/				O modules (m = Z from Nespolo and Bouznari, 2017)
-			oblock-m2-minus.stl		single chain (w = 1) O- module
-			oblock-m2-plus.stl		single chain (w = 1) O+ module
-			oblock-m3-plus.stl		Z3 O+ module for kalifersite
-			oblock-m5-minus.stl		double chain (w = 2) O- module
-			oblock-m5-plus.stl		double chain (w = 2) O+ module
-			oblock-m6-plus.stl		Z6 O+ module for kalifersite
-			oblock-m8-minus.stl		triple chain (w = 3) O- module
-		
+- `oblock/`					O modules (m = Z from Nespolo and Bouznari, 2017)
+  - `oblock-m2-minus.stl`			Single chain (w = 1) O- module.
+  - `oblock-m2-plus.stl`			Single chain (w = 1) O+ module.
+  - `oblock-m3-plus.stl`			Z3 O+ module for kalifersite.
+  - `oblock-m5-minus.stl`			Double chain (w = 2) O- module.
+  - `oblock-m5-plus.stl`			Double chain (w = 2) O+ module.
+  - `oblock-m6-plus.stl`			Z6 O+ module for kalifersite.
+  - `oblock-m8-minus.stl`			Triple chain (w = 3) O- module.
+  - `oblock-m8-plus.stl`			Triple chain (w = 3) O+ module.
+  - `oblock-support-enforcer.stl`	Support enforcer for the O modules. When slicing (in Prusaslicer), right click on the O module, then "add support enforcer". 
+									It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
+									The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need support).
+  - `single-octahedron-clips.stl`	An octahedron that fits between O modules that are joined by phyllosilicate-type linkages to fill in the missing sites.
+  - `single-octahedron.stl`			An octahedron that fits between O modules that are joined by phyllosilicate-type linkages to fill in the missing sites.
+									This piece has additional clips that make it easier to hold on when the single octahedron is at the front or back of an O module.
 	
-	
+- `quartz`					Experimental modules for quartz. These modules do not have pags and thus have to be glued together to extend the structure.
+  - `quartz-module.stl`				3<sub>2</sub> screw axis module for quartz (two repeats).
 
-	LICENSE 				The copyright license (GPLv3) for the TotBlocks project.
-	totblocks.scad			The source code to generate TotBlocks. See below for method documentation for totblocks.scad.
+- `tblock`					T modules (n = w from Leung and dePolo, 202x)
+  - `tblock-n1-minus.stl`			Single chain (w = 1) T- module.
+  - `tblock-n1-plus.stl`
 
-	*Note that the T+ and T- notation is used here to differentiate between the two types of T modules. 
-	 Strictly speaking, the T+ and T- notation corresponds to the orientation of the T modules (apices pointing up = +, down = -) rather than the modules themselves.
+tblock-n2-minus.stl
+
+tblock-n2-plus.stl
+
+tblock-n3-minus.stl
+
+tblock-n3-plus.stl
+
+tblock-n4-minus.stl
+
+tblock-n4-plus.stl
+- `LICENSE` 				The copyright license (GPLv3) for the TotBlocks project.
+- `totblocks.scad`		The source code to generate TotBlocks. See below for method documentation for totblocks.scad.
+
+[^1]Note that the T+ and T- notation is used here to differentiate between the two types of T modules. 
+ Strictly speaking, the T+ and T- notation corresponds to the orientation of the T modules (apices pointing up = +, down = -) rather than the modules themselves.
 
 
 # Method documentation:
