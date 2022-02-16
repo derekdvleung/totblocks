@@ -72,7 +72,7 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
   
   
 - [`LICENSE`](LICENSE) 				The copyright license (GPLv3) for the TotBlocks project.
-- [`totblocks.scad`](totblocks.scad)									The source code to generate TotBlocks. See below for method documentation for `totblocks.scad`.
+- [`totblocks.scad`](totblocks.scad)										The source code to generate TotBlocks. See below for method documentation for `totblocks.scad`.
 
 [^1]: Note that the *T<sup>+</sup>* and *T<sup>−</sup>* notation is used here to differentiate between the two types of T modules. 
  However, the *T<sup>+</sup>* and *T<sup>−</sup>* notation actually corresponds to the orientation of the *T* modules (apices pointing up = <sup>+</sup>, down = <sup>−</sup>) rather than the modules themselves.
