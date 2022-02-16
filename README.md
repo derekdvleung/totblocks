@@ -13,6 +13,8 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
 
 ## Questions?
 
+If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
+If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
 
 
 # Repository contents
@@ -40,8 +42,6 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
     - [`tblock-n1-plus-dual-1.stl`](stl/dual/oblock-m2-plus-dual-1.stl)			*T<sup>+</sup>* module, part 2.[^1]
 		
   - [`oblock/`](stl/oblock/)						*O* modules (`m` = *Z* from Nespolo and Bouznari, 2017)
-    - [`oblock-m11-minus.stl`](stl/oblock/oblock-m11-minus.stl)					Quadruple chain (*w* = 4) *O<sup>−</sup>* module.
-    - [`oblock-m11-plus.stl`](stl/oblock/oblock-m11-plus.stl)					Quadruple chain (*w* = 4) *O<sup>+</sup>* module.
     - [`oblock-m2-minus.stl`](stl/oblock/oblock-m2-minus.stl)					Single chain (*w* = 1) *O<sup>−</sup>* module.
     - [`oblock-m2-plus.stl`](stl/oblock/oblock-m2-plus.stl)						Single chain (*w* = 1) *O<sup>+</sup>* module.
     - [`oblock-m3-plus.stl`](stl/oblock/oblock-m3-plus.stl)						*Z*<sub>3</sub> *O<sup>+</sup>* module for kalifersite.
@@ -50,6 +50,8 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
     - [`oblock-m6-plus.stl`](stl/oblock/oblock-m6-plus.stl)						*Z*<sub>6</sub> *O<sup>+</sup>* module for kalifersite.
     - [`oblock-m8-minus.stl`](stl/oblock/oblock-m8-minus.stl)					Triple chain (*w* = 3) *O<sup>−</sup>* module.
     - [`oblock-m8-plus.stl`](stl/oblock/oblock-m8-plus.stl)						Triple chain (*w* = 3) *O<sup>+</sup>* module.
+    - [`oblock-m11-minus.stl`](stl/oblock/oblock-m11-minus.stl)					Quadruple chain (*w* = 4) *O<sup>−</sup>* module.
+    - [`oblock-m11-plus.stl`](stl/oblock/oblock-m11-plus.stl)					Quadruple chain (*w* = 4) *O<sup>+</sup>* module.
     - [`oblock-support-enforcer.stl`](stl/oblock/oblock-support-enforcer.stl)	Support enforcer for the *O* modules. When slicing (in Prusaslicer), right click on the *O* module, then "add support enforcer". 
 																				It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
 																				The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need support).
@@ -83,7 +85,7 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
 ## Hard-coded parameters
 <!-- todo: flush this out -->
 
-## Modules
+## TotBlocks modules
 
 	tBlock (n = 1, apex = PLUS);
 
