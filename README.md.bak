@@ -55,7 +55,7 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 
 - `tblock`					T modules (n = w from Leung and dePolo, 202x)
   - `tblock-n1-minus.stl`			Single chain (w = 1) T- module.
-tblock-n1-plus.stl
+  - `tblock-n1-plus.stl`
 
 tblock-n2-minus.stl
 
