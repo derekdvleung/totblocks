@@ -7,7 +7,7 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 How do I 3D print TotBlocks?
 We are currently working on a tutorial video for 3D printing TotBlocks.
 The 3D models are available as *.3mf (Prusaslicer project files) and *.stl files for 3D printing. 
-Note that the *.3mf files include the positions for support enforcers for O modules (oblock), 
+Note that the *.3mf files include the positions for support enforcers for *O* modules (oblock), 
 whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer) has to be added for the overhanging horizontal pegs of the O modules.
 
 # Repository contents
@@ -21,20 +21,20 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
   -	`connectors/`			Hexagonal pegs used to vertically connect T-O-T sheets for layered minerals.
 	- `brucite-connector.stl`		For brucite structure
 	- `chlorite-connector.stl`		For chlorite structure
-	- `lizardite-connector.stl`	For lizardite (kaolinite-serpentine group) structure
+	- `lizardite-connector.stl`		For lizardite (kaolinite-serpentine group) structure
 	- `mica-connector.stl`			For mica (2:1 phyllosilicate) structure
 	
 - `dual/` 					3D models used for the dual-colour version of TotBlocks (single chain, w = 1). 
 							Each model has two parts, corresponding to two the different colours used in dual extrusion printing.
 							These models should be overlain in the slicer for dual printing.
-  - `oblock-m2-plus-dual-0.stl`		O+ module, part 1.
-  - `oblock-m2-plus-dual-1.stl`		O+ module, part 2.
+  - `oblock-m2-plus-dual-0.stl`		O<sup>+</sup> module, part 1.
+  - `oblock-m2-plus-dual-1.stl`		O<sup>+</sup> module, part 2.
   - `tblock-n1-minus-dual-0.stl`	T<sup>−</sup> module, part 1.[^1]
   - `tblock-n1-minus-dual-1.stl`	T<sup>−</sup> module, part 2.[^1]
   - `tblock-n1-plus-dual-0.stl`		T<sup>+</sup> module, part 1.[^1]
   - `tblock-n1-plus-dual-1.stl`		T<sup>+</sup> module, part 2.[^1]
 		
-- `oblock/`					O modules (m = Z from Nespolo and Bouznari, 2017)
+- `oblock/`					O modules (`m` = Z from Nespolo and Bouznari, 2017)
   - `oblock-m2-minus.stl`			Single chain (w = 1) O<sup>−</sup> module.
   - `oblock-m2-plus.stl`			Single chain (w = 1) O<sup>+</sup> module.
   - `oblock-m3-plus.stl`			Z3 O+ module for kalifersite.
@@ -53,17 +53,17 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 - `quartz`					Experimental modules for quartz. These modules do not have pags and thus have to be glued together to extend the structure.
   - `quartz-module.stl`				3<sub>2</sub> screw axis module for quartz (two repeats).
 
-- `tblock`					T modules (n = w from Leung and dePolo, 202x)
-  - `tblock-n1-minus.stl`			Single chain (w = 1) T<sup>−</sup> module.
-  - `tblock-n1-plus.stl`			Single chain (w = 1) T<sup>+</sup> module.
-  - `tblock-n2-minus.stl`			Double chain (w = 2) T<sup>−</sup> module.
-  - `tblock-n2-plus.stl`			Double chain (w = 2) T<sup>+</sup> module.
-  - `tblock-n3-minus.stl`			Triple chain (w = 3) T<sup>−</sup> module.
-  - `tblock-n3-plus.stl`			Triple chain (w = 3) T<sup>+</sup> module.
-  - `tblock-n4-minus.stl`			Quadruple chain (w = 4) T<sup>−</sup> module.
+- `tblock`					T modules (`n` = w from Leung and dePolo, 202x)
+  - `tblock-n1-minus.stl`			Single chain (w = 1) T<sup>−</sup> module.[^1]
+  - `tblock-n1-plus.stl`			Single chain (w = 1) T<sup>+</sup> module.[^1]
+  - `tblock-n2-minus.stl`			Double chain (w = 2) T<sup>−</sup> module.[^1]
+  - `tblock-n2-plus.stl`			Double chain (w = 2) T<sup>+</sup> module.[^1]
+  - `tblock-n3-minus.stl`			Triple chain (w = 3) T<sup>−</sup> module.[^1]
+  - `tblock-n3-plus.stl`			Triple chain (w = 3) T<sup>+</sup> module.[^1]
+  - `tblock-n4-minus.stl`			Quadruple chain (w = 4) T<sup>−</sup> module.[^1] 
+  - `tblock-n4-plus.stl`			Quadruple chain (w = 4) T<sup>+</sup> module.[^1]
   
   
-  - `tblock-n4-plus.stl`			Quadruple chain (w = 4) T<sup>+</sup> module.
 - `LICENSE` 				The copyright license (GPLv3) for the TotBlocks project.
 - `totblocks.scad`			The source code to generate TotBlocks. See below for method documentation for totblocks.scad.
 
@@ -79,7 +79,7 @@ whereas for *.stl files the support enforcer (stl/oblock/oblock-support-enforcer
 
 Produces a T module of certain width and polarity.
 
-`n` = width of module (1 = single chain, 2 = double chain, 3 = triple chain)
+`n` = width of module (`1` = single chain, `2` = double chain, `3` = triple chain)
 
 `apex` = direction that the tetrahedra point (`PLUS` or `MINUS`)
 
@@ -89,7 +89,7 @@ Produces a T module of certain width and polarity.
 
 Produces an O module of certain width and polarity
 
-`m` = number of M sites in the module (2 = single chain, 5 = double chain, 8 = triple chain)
+`m` = number of M sites in the module (`2` = single chain, `5` = double chain, `8` = triple chain)
 
 `apex` = direction that the octahedra point (`PLUS` or `MINUS`)
 
@@ -111,7 +111,7 @@ A temporary method for producing O modules for kalifersite, which have the width
 
 Produces a single octahedron piece. Note that there is no difference between PLUS and MINUS versions.
 
-`apex` = direction that the octahedra point (`PLUS or MINUS`)
+`apex` = direction that the octahedra point (`PLUS` or `MINUS`)
 
 `pegs` = if `TRUE`, includes clips for the octahedra; if `FALSE`, does not include clips
 
@@ -155,10 +155,8 @@ Produces two parts of a dual print for T modules.
 
 `dual` = part number (`0` or `1`)
 
-
 ## Quartz
 
-
-quartzModule ();
+	quartzModule ();
 
 Produces a quartz module.
