@@ -22,22 +22,22 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
 - `3mf`						All the \*.3mf (Prusaslicer project files) can be found in this folder.
 <!-- todo: add these files -->
 
-- `stl/`					All the \*.stl files can be found in this folder.
-  -	`connectors/`			Hexagonal pegs used to vertically connect *T*-*O*-*T* sheets for layered minerals.
+- [`stl/`](stl/)					All the \*.stl files can be found in this folder.
+  -	[`connectors/`]			Hexagonal pegs used to vertically connect *T*-*O*-*T* sheets for layered minerals.
 	- [`brucite-connector.stl`](stl/connectors/brucite-connector.stl)		For brucite structure
-	- `chlorite-connector.stl`		For chlorite structure
-	- `lizardite-connector.stl`		For lizardite (kaolinite-serpentine group) structure
-	- `mica-connector.stl`			For mica (2:1 phyllosilicate) structure
+	- [`chlorite-connector.stl`]		For chlorite structure
+	- [`lizardite-connector.stl`]		For lizardite (kaolinite-serpentine group) structure
+	- [`mica-connector.stl`]			For mica (2:1 phyllosilicate) structure
 	
-- `dual/` 					3D models used for the dual-colour version of TotBlocks (single chain, *w* = 1). 
+- [`dual/`] 					3D models used for the dual-colour version of TotBlocks (single chain, *w* = 1). 
 							Each model has two parts, corresponding to two the different colours used in dual extrusion printing.
 							These models should be overlain in the slicer for dual printing.
-  - `oblock-m2-plus-dual-0.stl`		*O<sup>+</sup>* module, part 1.
-  - `oblock-m2-plus-dual-1.stl`		*O<sup>+</sup>* module, part 2.
-  - `tblock-n1-minus-dual-0.stl`	*T<sup>−</sup>* module, part 1.[^1]
-  - `tblock-n1-minus-dual-1.stl`	*T<sup>−</sup>* module, part 2.[^1]
-  - `tblock-n1-plus-dual-0.stl`		*T<sup>+</sup>* module, part 1.[^1]
-  - `tblock-n1-plus-dual-1.stl`		*T<sup>+</sup>* module, part 2.[^1]
+  - [`oblock-m2-plus-dual-0.stl`]		*O<sup>+</sup>* module, part 1.
+  - [`oblock-m2-plus-dual-1.stl`]		*O<sup>+</sup>* module, part 2.
+  - [`tblock-n1-minus-dual-0.stl`]	*T<sup>−</sup>* module, part 1.[^1]
+  - [`tblock-n1-minus-dual-1.stl`]	*T<sup>−</sup>* module, part 2.[^1]
+  - [`tblock-n1-plus-dual-0.stl`]		*T<sup>+</sup>* module, part 1.[^1]
+  - [`tblock-n1-plus-dual-1.stl`]		*T<sup>+</sup>* module, part 2.[^1]
 		
 - `oblock/`					*O* modules (`m` = *Z* from Nespolo and Bouznari, 2017)
   - `oblock-m2-minus.stl`			Single chain (*w* = 1) *O<sup>−</sup>* module.

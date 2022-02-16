@@ -24,7 +24,7 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
 
 - `stl/`					All the \*.stl files can be found in this folder.
   -	`connectors/`			Hexagonal pegs used to vertically connect *T*-*O*-*T* sheets for layered minerals.
-	- `brucite-connector.stl`		For brucite structure
+	- [`brucite-connector.stl`](stl/connectors/brucite-connector.stl)		For brucite structure
 	- `chlorite-connector.stl`		For chlorite structure
 	- `lizardite-connector.stl`		For lizardite (kaolinite-serpentine group) structure
 	- `mica-connector.stl`			For mica (2:1 phyllosilicate) structure
