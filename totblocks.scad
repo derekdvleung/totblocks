@@ -9,11 +9,11 @@
 
 /*********************************************************************************************************
 
-									CONSTANTS
+                            PARAMETERS
 
 **********************************************************************************************************/
 
-// Colors - only works in Preview Mode
+// Colors for simpTOT module, that shows idealized T and O modules - only works in Preview Mode
 tColor = "crimson";
 oColor = "yellowgreen";
 oMColor = "yellow";
@@ -35,8 +35,8 @@ echo (oh/factor); // real height of octahedron in A
 MICA_HEIGHT = 3.2*factor + 2*th;
 
 // these minerals use vertical pegs to connect the O-O underside bonds, i.e., chloriteBrucitePeg module
-CHLORITE_HEIGHT = 7.01*factor; // based on zanazzi et al (2007)
-BRUCITE_HEIGHT = 4.73*factor; // based on nagai et al (2000)
+CHLORITE_HEIGHT = 7.01*factor; // based on zanazzi et al. (2007)
+BRUCITE_HEIGHT = 4.73*factor; // based on nagai et al. (2000)
 LIZARDITE_HEIGHT =7.23*factor; // based on mellini (1982)
 
 o = 2*(ts-tx);
@@ -78,6 +78,10 @@ numBlocks = 2; // this is the length of the blocks, can be modified as necessary
 
 extraBlocks = numBlocks-1; //number of blocks, not including base block
 
+// This module prevents internal constants from being customized.
+module customizerLimit (){}
+
+// CONSTANTS
 PLUS = 0; // constants used to define the direction of the modules
 MINUS = 1; // constants used to define the direction of the modules
 
@@ -1539,7 +1543,7 @@ module tBlockDual2(n=1, apex = PLUS, dual = 0){
 
 //A temporary module to make Z3 and Z6 modules as viewed in Kalifersite - this module just has the OY pegs removed
 
-module oBlockKalifersite(m=2, apex = PLUS){
+module oBlockKalifersite(m=3, apex = PLUS){
 	difference(){
 
 		union(){
