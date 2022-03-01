@@ -90,32 +90,32 @@ These parameters are hard-coded into the program, but they can be adjusted using
 `t` = the true side length of the tetrahedra in the *T* modules (default 10 mm). This will define the size of both the *T* and *O* modules.
 
 ### Peg sizes
-`pegRadius` = radius of the horizontal and vertical pegs (default 1.8 mm)
-`pegZLength` = length of vertical pegs (Z direction) (default 2.4 mm)
-`pegYLength` = length of lengthwise pegs (Y direction) (default 5 mm)
-`pegXLength` = length of widthwise pegs (X direction) (default 5 mm)
-`pegZLowerLength` = length that the vertical pegs (Z direction) should extend (default 4.4 mm)
-`pegZRotate` = orientation of the vertical pegs (Z direction) (default 90 degrees)
+`pegRadius` = radius of the horizontal and vertical pegs (default 1.8 mm)  
+`pegZLength` = length of vertical pegs (Z direction) (default 2.4 mm)  
+`pegYLength` = length of lengthwise pegs (Y direction) (default 5 mm)  
+`pegXLength` = length of widthwise pegs (X direction) (default 5 mm)  
+`pegZLowerLength` = length that the vertical pegs (Z direction) should extend (default 4.4 mm)  
+`pegZRotate` = orientation of the vertical pegs (Z direction) (default 90 degrees)  
 
 ### Peg tolerances
-`toleranceZ` = tolerance for the radius of the vertical pegs (Z direction) (default 0 mm)
-`tZMinusTolerance` = (deprecated) tolerance for slots in *T<sup>−</sup>* modules (slots were replaced by pegs in a newer iteration) (default 0 mm)
-`lengthTolerance` = tolerance for lengths of vertical pegs (Z direction) (default 0.2 mm)
-`SlotXHeightTolerance` = extends the height (Z direction) for the widthwise pegs (X direction) to reduce issues from sagging due to bridging
-`toleranceXY` = tolerance for the radius of the lengthwise and widthwise pegs (Y and X directions, respectively)
+`toleranceZ` = tolerance for the radius of the vertical pegs (Z direction) (default 0 mm)  
+`tZMinusTolerance` = (deprecated) tolerance for slots in *T<sup>−</sup>* modules (slots were replaced by pegs in a newer iteration) (default 0 mm)  
+`lengthTolerance` = tolerance for lengths of vertical pegs (Z direction) (default 0.2 mm)  
+`SlotXHeightTolerance` = extends the height (Z direction) for the widthwise pegs (X direction) to reduce issues from sagging due to bridging  
+`toleranceXY` = tolerance for the radius of the lengthwise and widthwise pegs (Y and X directions, respectively)  
 
 ## Constants
 These values are used for internal reference (don't change them)
-`PLUS = 1` constant used to denote positive orientation
-`MINUS = 0` constant used to denote negative orientation
+`PLUS = 1` constant used to denote positive orientation  
+`MINUS = 0` constant used to denote negative orientation  
 
-`T_SINGLE_CHAIN = 1` constant for single-chain-width *T* modules
-`T_DOUBLE_CHAIN = 2` constant for double-chain-width *T* modules
-`T_TRIPLE_CHAIN = 3` constant for triple-chain-width *T* modules
+`T_SINGLE_CHAIN = 1` constant for single-chain-width *T* modules  
+`T_DOUBLE_CHAIN = 2` constant for double-chain-width *T* modules  
+`T_TRIPLE_CHAIN = 3` constant for triple-chain-width *T* modules  
 
-`O_SINGLE_CHAIN = 2` constant for single-chain-width *O* modules
-`O_DOUBLE_CHAIN = 5` constant for double-chain-width *O* modules
-`O_TRIPLE_CHAIN = 8` constant for triple-chain-width *O* modules
+`O_SINGLE_CHAIN = 2` constant for single-chain-width *O* modules  
+`O_DOUBLE_CHAIN = 5` constant for double-chain-width *O* modules  
+`O_TRIPLE_CHAIN = 8` constant for triple-chain-width *O* modules  
 
 
 ## TotBlocks modules
@@ -124,8 +124,7 @@ These values are used for internal reference (don't change them)
 
 Produces a *T* module of certain width and polarity.
 
-`n` = width of module (`T_SINGLE_CHAIN` = 1, `T_DOUBLE_CHAIN` = 2, `T_TRIPLE_CHAIN` = 3)
-
+`n` = width of module (`T_SINGLE_CHAIN` = 1, `T_DOUBLE_CHAIN` = 2, `T_TRIPLE_CHAIN` = 3)  
 `apex` = direction that the tetrahedra point (`PLUS` or `MINUS`)[^1]
 
 ***
@@ -134,8 +133,7 @@ Produces a *T* module of certain width and polarity.
 
 Produces an *O* module of certain width and polarity
 
-`m` = number of *M* sites in the module (`O_SINGLE_CHAIN` = 2, `O_DOUBLE_CHAIN` = 5, `O_TRIPLE_CHAIN` = 8)
-
+`m` = number of *M* sites in the module (`O_SINGLE_CHAIN` = 2, `O_DOUBLE_CHAIN` = 5, `O_TRIPLE_CHAIN` = 8)  
 `apex` = direction that the octahedra point (`PLUS` or `MINUS`)
 
 ***
