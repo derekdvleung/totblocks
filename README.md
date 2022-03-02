@@ -84,38 +84,44 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 
 ## Hard-coded parameters
 <!-- todo: flush this out -->
-These parameters are hard-coded into the program, but they can be adjusted using the built-in Customizer in OpenSCAD.
+These parameters are hard-coded into the TotBlocks file, but they can be adjusted using the built-in Customizer in OpenSCAD.
 
-### Module sizes
-`t` = the true side length of the tetrahedra in the *T* modules (default 10 mm). This will define the size of both the *T* and *O* modules.
+### Module size parameters
+`t` = the true side length of the tetrahedra in the *T* modules (default 10 mm). This will define the size of both the *T* and *O* modules, since both are geometrically related.  
+`numBlocks` = periodic length of the blocks (*l* in Leung and dePolo, 202x). Note that the code currently does not support half lengths.
 
-### Peg sizes
-`pegRadius` = radius of the horizontal and vertical pegs (default 1.8 mm)  
-`pegZLength` = length of vertical pegs (Z direction) (default 2.4 mm)  
-`pegYLength` = length of lengthwise pegs (Y direction) (default 5 mm)  
-`pegXLength` = length of widthwise pegs (X direction) (default 5 mm)  
-`pegZLowerLength` = length that the vertical pegs (Z direction) should extend (default 4.4 mm)  
-`pegZRotate` = orientation of the vertical pegs (Z direction) (default 90 degrees)  
+### Peg size parameters
+`pegRadius` = radius of the horizontal and vertical pegs (default 1.8 mm).  
+`pegZLength` = length of vertical pegs (Z direction) (default 2.4 mm).  
+`pegYLength` = length of lengthwise pegs (Y direction) (default 5 mm).  
+`pegXLength` = length of widthwise pegs (X direction) (default 5 mm).  
+`pegZLowerLength` = length that the vertical pegs (Z direction) should extend (default 4.4 mm).  
+`pegZRotate` = orientation of the vertical pegs (Z direction) (default 90 degrees).  
+`oAdjustHexHeight` = height of the hexagonal slots (Z direction) in the O modules (default 2.6 mm).
+`tMinusCutoff` = Offset used to determine where the widthwise side of the *T* modules are cut off (default 0 mm).  
+`tetBridgeHeight` = Offset used for the height of the rectangular bridges that connect the tetrahedra in the *T* modules (default 0 mm).  
 
-### Peg tolerances
-`toleranceZ` = tolerance for the radius of the vertical pegs (Z direction) (default 0 mm)  
-`tZMinusTolerance` = (deprecated) tolerance for slots in *T<sup>−</sup>* modules (slots were replaced by pegs in a newer iteration) (default 0 mm)  
-`lengthTolerance` = tolerance for lengths of vertical pegs (Z direction) (default 0.2 mm)  
-`SlotXHeightTolerance` = extends the height (Z direction) for the widthwise pegs (X direction) to reduce issues from sagging due to bridging  
-`toleranceXY` = tolerance for the radius of the lengthwise and widthwise pegs (Y and X directions, respectively)  
+
+### Tolerance parameters
+`toleranceZ` = tolerance for the radius of the vertical pegs (Z direction) (default 0 mm).  
+`tZMinusTolerance` = (deprecated) tolerance for slots in *T<sup>−</sup>* modules (slots were replaced by pegs in a newer iteration) (default 0 mm).  
+`lengthTolerance` = tolerance for lengths of vertical pegs (Z direction) (default 0.2 mm).  
+`SlotXHeightTolerance` = extends the height (Z direction) for the widthwise pegs (X direction) to reduce issues from sagging due to bridging (default 0.6 mm).  
+`toleranceXY` = tolerance for the radius of the lengthwise and widthwise pegs (Y and X directions, respectively) (default 0 mm).  
+
 
 ## Constants
-These values are used for internal reference (don't change them)
-`PLUS = 1` constant used to denote positive orientation  
-`MINUS = 0` constant used to denote negative orientation  
+These values are used for internal reference (don't change them).
+`PLUS = 1` constant used to denote positive orientation.  
+`MINUS = 0` constant used to denote negative orientation.  
 
-`T_SINGLE_CHAIN = 1` constant for single-chain-width *T* modules  
-`T_DOUBLE_CHAIN = 2` constant for double-chain-width *T* modules  
-`T_TRIPLE_CHAIN = 3` constant for triple-chain-width *T* modules  
+`T_SINGLE_CHAIN = 1` constant for single-chain-width *T* modules.  
+`T_DOUBLE_CHAIN = 2` constant for double-chain-width *T* modules.  
+`T_TRIPLE_CHAIN = 3` constant for triple-chain-width *T* modules.  
 
-`O_SINGLE_CHAIN = 2` constant for single-chain-width *O* modules  
-`O_DOUBLE_CHAIN = 5` constant for double-chain-width *O* modules  
-`O_TRIPLE_CHAIN = 8` constant for triple-chain-width *O* modules  
+`O_SINGLE_CHAIN = 2` constant for single-chain-width *O* modules.  
+`O_DOUBLE_CHAIN = 5` constant for double-chain-width *O* modules.  
+`O_TRIPLE_CHAIN = 8` constant for triple-chain-width *O* modules.  
 
 
 ## TotBlocks modules

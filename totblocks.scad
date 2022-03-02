@@ -13,12 +13,10 @@
 
 **********************************************************************************************************/
 
-// Colors for simpTOT module, that shows idealized T and O modules - only works in Preview Mode
-tColor = "crimson";
-oColor = "yellowgreen";
-oMColor = "yellow";
-
-// Tetrahedron side length
+/* [Module size parameters] */
+//Length of the blocks (l) N.B. currently does not support half lengths
+numBlocks = 2; 
+// Tetrahedron side length (mm)
 t = 10;//10;  // tetrahedron side length
 a = t/2; // tetrahedron half side length
 ts = sqrt(3)/2*t; // slant height of tetrahedron
@@ -32,12 +30,12 @@ factor = tCR/1.62; //the scale of the structure, assuming a Si-O bond distance o
 echo (th/factor); // real height of tetrahedron in A
 echo (oh/factor); // real height of octahedron in A
 
-MICA_HEIGHT = 3.2*factor + 2*th;
 
-// these minerals use vertical pegs to connect the O-O underside bonds, i.e., chloriteBrucitePeg module
-CHLORITE_HEIGHT = 7.01*factor; // based on zanazzi et al. (2007)
-BRUCITE_HEIGHT = 4.73*factor; // based on nagai et al. (2000)
-LIZARDITE_HEIGHT =7.23*factor; // based on mellini (1982)
+//These minerals use vertical pegs to connect the O-O underside bonds, i.e., chloriteBrucitePeg module
+MICA_HEIGHT = 3.2*factor + 2*th; // based on Hendricks and Jefferson (1939)
+CHLORITE_HEIGHT = 7.01*factor; // based on Zanazzi et al. (2007)
+BRUCITE_HEIGHT = 4.73*factor; // based on Nagai et al. (2000)
+LIZARDITE_HEIGHT =7.23*factor; // based on Mellini (1982)
 
 o = 2*(ts-tx);
 b = o/2;
@@ -53,30 +51,70 @@ echo (2*ts/(oh+2*th)); // ratio of width to height of modules
 
 echo ((th+oh)/(oh+2*th)); // vertical offset for pyribole-type linkages
 
-pegRadius = 1.8;//1; //radii of pegs (mm)
-pegZLength = 2.4;////oh/2; //length of pegs (mm)
-pegYLength = 5;//b;//b; 
-pegXLength = 5;//b;
-pegZLowerLength = 4.4;//2.4;// 4.4; //extends the opposite end of peg on the Z axis (mm)
-pegZRotate =90;//0
-echo(b);
-toleranceZ = 0; //tolerance for Z peg radius
-tZMinusTolerance = 0; //-0.1
-lengthTolerance =0.2; //tolerance for Z peg length
-slotXHeightTolerance =0.6;//extends slot for a specified Z height to reduce sagging from bridging
-toleranceXY = 0;
-tOffset = sqrt(3)/2*pegRadius; // vertical offset used for adding thickness to pegs
-tExpand = 0;//5;//3;
-tExpandHeight = 0;//th+tOffset;
-tMinusCutoff = 0;
-tetBridgeHeight = 0;//2.66-0.8; //2.66 to get flush edges
-oAdjustHexHeight =2.6;//oh/2-pegZLength ;// 2.2;
-bottomDesignHeight = 0.4;
-tBaseScale = 1;//1.4; //1.2
+/* [Peg size parameters] */
+//Radius of the horizontal (lengthwise and widthwise) and vertical pegs
+pegRadius = 1.8;//1; 
 
-numBlocks = 2; // this is the length of the blocks, can be modified as necessary.
+//Length of vertical pegs
+pegZLength = 2.4;////oh/2; 
+
+//Length of lengthwise pegs
+pegYLength = 5;//b;//b; 
+
+//Length of widthwise pegs
+pegXLength = 5;//b;
+
+//Extends the opposite end of the vertical pegs on the Z axis (mm)
+pegZLowerLength = 4.4;//2.4;// 4.4; 
+
+//Orientation of the vertical pegs
+pegZRotate =90;//0
+
+//Determines the height of the hexagonal slots in the O modules
+oAdjustHexHeight =2.6;//oh/2-pegZLength ;// 2.2;
+
+//Offset used to determine where the widthwise side of the T modules are cut off
+tMinusCutoff = 0;
+
+//Offset for the height of the rectangular bridges that connect the tetrahedra in the T modules
+tetBridgeHeight = 0;//2.66-0.8; //2.66 to get flush edges
+
+
+
 
 extraBlocks = numBlocks-1; //number of blocks, not including base block
+
+/* [Tolerance parameters] */
+
+echo(b);
+//Tolerance for Z peg radius
+toleranceZ = 0; 
+
+//Tolerance for Z peg length
+lengthTolerance =0.2; 
+
+//Extends widthwise and lengthwise slots for a specified Z height to reduce sagging from bridging
+slotXHeightTolerance =0.6;
+
+// Vertical offset used for adding thickness to pegs
+toleranceXY = 0;
+tOffset = sqrt(3)/2*pegRadius; 
+//tExpand = 0;//5;//3;
+//tExpandHeight = 0;//th+tOffset;
+
+/* [Deprecated] */
+// Colors for simpTOT module, that shows idealized T and O modules - only works in Preview Mode
+tColor = "crimson";
+oColor = "yellowgreen";
+oMColor = "yellow";
+
+bottomDesignHeight = 0.4;
+
+tZMinusTolerance = 0;
+
+//Increases the size of the tetrahedra in the T modules of a previous iteration of TotBlocks
+tBaseScale = 1;//1.4; //1.2
+
 
 // This module prevents internal constants from being customized.
 module customizerLimit (){}
@@ -98,6 +136,8 @@ T_TRIPLE_CHAIN = 3; // triple chain, n=3
 O_SINGLE_CHAIN = 2; // single chain, m =2
 O_DOUBLE_CHAIN = 5; // double chain, m = 5
 O_TRIPLE_CHAIN = 8; // double chain, m=4
+
+
 
 /*********************************************************************************************************
 
