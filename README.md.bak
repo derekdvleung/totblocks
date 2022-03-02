@@ -87,7 +87,8 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 These parameters are hard-coded into the TotBlocks file, but they can be adjusted using the built-in Customizer in OpenSCAD.
 
 ### Module size parameters
-`t` = the true side length of the tetrahedra in the *T* modules (default 10 mm). This will define the size of both the *T* and *O* modules.
+`t` = the true side length of the tetrahedra in the *T* modules (default 10 mm). This will define the size of both the *T* and *O* modules, since both are geometrically related.  
+`numBlocks` = periodic length of the blocks (*l* in Leung and dePolo, 202x). Note that the code currently does not support half lengths.
 
 ### Peg size parameters
 `pegRadius` = radius of the horizontal and vertical pegs (default 1.8 mm).  
@@ -96,7 +97,7 @@ These parameters are hard-coded into the TotBlocks file, but they can be adjuste
 `pegXLength` = length of widthwise pegs (X direction) (default 5 mm).  
 `pegZLowerLength` = length that the vertical pegs (Z direction) should extend (default 4.4 mm).  
 `pegZRotate` = orientation of the vertical pegs (Z direction) (default 90 degrees).  
-`oAdjustHexHeight` = height of the hexagonal slots (Z direction) in the O modules (default 2.6 mm).
+`oAdjustHexHeight` = height of the hexagonal slots (Z direction) in the O modules (default 2.6 mm).  
 `tMinusCutoff` = Offset used to determine where the widthwise side of the *T* modules are cut off (default 0 mm).  
 `tetBridgeHeight` = Offset used for the height of the rectangular bridges that connect the tetrahedra in the *T* modules (default 0 mm).  
 

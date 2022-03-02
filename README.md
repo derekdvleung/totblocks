@@ -97,7 +97,7 @@ These parameters are hard-coded into the TotBlocks file, but they can be adjuste
 `pegXLength` = length of widthwise pegs (X direction) (default 5 mm).  
 `pegZLowerLength` = length that the vertical pegs (Z direction) should extend (default 4.4 mm).  
 `pegZRotate` = orientation of the vertical pegs (Z direction) (default 90 degrees).  
-`oAdjustHexHeight` = height of the hexagonal slots (Z direction) in the O modules (default 2.6 mm).
+`oAdjustHexHeight` = height of the hexagonal slots (Z direction) in the O modules (default 2.6 mm).  
 `tMinusCutoff` = Offset used to determine where the widthwise side of the *T* modules are cut off (default 0 mm).  
 `tetBridgeHeight` = Offset used for the height of the rectangular bridges that connect the tetrahedra in the *T* modules (default 0 mm).  
 
@@ -111,7 +111,7 @@ These parameters are hard-coded into the TotBlocks file, but they can be adjuste
 
 
 ## Constants
-These values are used for internal reference (don't change them).
+These values are used for internal reference (don't change them).  
 `PLUS = 1` constant used to denote positive orientation.  
 `MINUS = 0` constant used to denote negative orientation.  
 
@@ -148,8 +148,7 @@ Produces an *O* module of certain width and polarity
 
 A temporary method for producing O modules for kalifersite, which have the width-wise pegs removed. It is anticipated that this method will be deprecated and added to the `oBlock` method.
  
-`m` = number of *M* sites in the module (3 = *Z*<sub>3</sub> module (double chain), 6 = *Z*<sub>6</sub> module (triple chain))
-
+`m` = number of *M* sites in the module (3 = *Z*<sub>3</sub> module (double chain), 6 = *Z*<sub>6</sub> module (triple chain))  
 `apex` = direction that the octahedra point (`PLUS` or `MINUS`)
 
 
@@ -160,8 +159,7 @@ A temporary method for producing O modules for kalifersite, which have the width
 
 Produces a single octahedron piece. Note that there is no difference between PLUS and MINUS versions.
 
-`apex` = direction that the octahedra point (`PLUS` or `MINUS`)
-
+`apex` = direction that the octahedra point (`PLUS` or `MINUS`)  
 `pegs` = if `TRUE`, includes clips for the octahedra; if `FALSE`, does not include clips
 
 
@@ -176,8 +174,7 @@ Produces a vertical peg for the mica-group minerals.
 
 	chloriteBrucitePeg (length);
 
-Produces a vertical peg for the chlorite and brucite groups, as well as lizardite (kaolinite-serpentine group)
-
+Produces a vertical peg for the chlorite and brucite groups, as well as lizardite (kaolinite-serpentine group)  
 `length` = length of peg (chlorite = `CHLORITE_HEIGHT`, brucite = `BRUCITE_HEIGHT`, lizardite = `LIZARDITE_HEIGHT`)
 
 
@@ -188,8 +185,7 @@ Produces a vertical peg for the chlorite and brucite groups, as well as lizardit
 
 Produces two parts of a dual print for single-chain-width *O* modules.
 
-`apex` = direction that the octahedra point (`PLUS` or `MINUS`)
-
+`apex` = direction that the octahedra point (`PLUS` or `MINUS`)  
 `dual` = part number (`0` or `1`)
 
 ***
@@ -198,11 +194,9 @@ Produces two parts of a dual print for single-chain-width *O* modules.
 
 Produces two parts of a dual print for *T* modules.
 
-`n` = width of module (`1` = single chain, `2` = double chain, `3` = triple chain)
-
-`apex` = direction that the tetrahedra point (`PLUS` or `MINUS`)[^1]
-
-`dual` = part number (`0` or `1`)
+`n` = width of module (`1` = single chain, `2` = double chain, `3` = triple chain)  
+`apex` = direction that the tetrahedra point (`PLUS` or `MINUS`)[^1]  
+`dual` = part number (`0` or `1`)  
 
 ## Quartz
 
