@@ -174,7 +174,8 @@ Produces a vertical peg for the mica-group minerals.
 
 	chloriteBrucitePeg (length);
 
-Produces a vertical peg for the chlorite and brucite groups, as well as lizardite (kaolinite-serpentine group)  
+Produces a vertical peg for the chlorite and brucite groups, as well as lizardite (kaolinite-serpentine group)
+
 `length` = length of peg (chlorite = `CHLORITE_HEIGHT`, brucite = `BRUCITE_HEIGHT`, lizardite = `LIZARDITE_HEIGHT`)
 
 
