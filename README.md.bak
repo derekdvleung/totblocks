@@ -6,9 +6,8 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 ## How do I 3D print TotBlocks?
 
-We are currently working on a tutorial video for 3D printing TotBlocks.
-The 3D models are available as \*.3mf (Prusaslicer project files) and \*.stl files for 3D printing. 
-Note that the \3mf files include the positions for support enforcers for *O* modules (`oblock`), 
+The 3D models are available as \*.3mf (PrusaSlicer project files) and \*.stl files for 3D printing. 
+Note that the \*.3mf files include the positions for support enforcers for *O* modules (`oblock`), 
 whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforcer`) has to be added for the overhanging horizontal pegs of the *O* modules.
 
 ## Questions?
@@ -174,7 +173,8 @@ Produces a vertical peg for the mica-group minerals.
 
 	chloriteBrucitePeg (length);
 
-Produces a vertical peg for the chlorite and brucite groups, as well as lizardite (kaolinite-serpentine group)  
+Produces a vertical peg for the chlorite and brucite groups, as well as lizardite (kaolinite-serpentine group)
+
 `length` = length of peg (chlorite = `CHLORITE_HEIGHT`, brucite = `BRUCITE_HEIGHT`, lizardite = `LIZARDITE_HEIGHT`)
 
 
