@@ -89,163 +89,97 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 2× single-octahedron-clips
 - 2× mica-connector
 
-
-
 ## Pyroxene Group
 
 ### Clinopyroxene
 
-4× oblock-m2-plus
-
-4× tblock-n1-plus
-
-4× tblock-n1-minus
-
-
+- 4× oblock-m2-plus
+- 4× tblock-n1-plus
+- 4× tblock-n1-minus
 
 ### Orthopyroxene
 
-4× oblock-m5-plus
-
-4× oblock-m5-minus
-
-8× tblock-n2-plus
-
-8× tblock-n2-minus
-
-
+- 4× oblock-m5-plus
+- 4× oblock-m5-minus
+- 8× tblock-n2-plus
+- 8× tblock-n2-minus
 
 ### Protopyroxene
 
-4× oblock-m5-plus
-
-4× oblock-m5-minus
-
-8× tblock-n2-plus
-
-8× tblock-n2-minus
-
-
+- 4× oblock-m5-plus
+- 4× oblock-m5-minus
+- 8× tblock-n2-plus
+- 8× tblock-n2-minus
 
 ## Amphibole Supergroup
 
-4× oblock-m5-plus
-
-4× tblock-n2-plus
-
-4× tblock-n2-minus
-
-
+- 4× oblock-m5-plus
+- 4× tblock-n2-plus
+- 4× tblock-n2-minus
 
 ## Clinojimthompsonite
 
-4× oblock-m8-plus
-
-4× tblock-n3-plus
-
-4× tblock-n3-minus
-
-
+- 4× oblock-m8-plus
+- 4× tblock-n3-plus
+- 4× tblock-n3-minus
 
 ## Chesterite
 
-2× oblock-m5-plus
-
-2× oblock-m5-minus
-
-4× tblock-n2-plus
-
-4× tblock-n2-minus
-
-2× oblock-m8-plus
-
-2× oblock-m8-minus
-
-4× tblock-n3-plus
-
-4× tblock-n3-minus
-
-
+- 2× oblock-m5-plus
+- 2× oblock-m5-minus
+- 4× tblock-n2-plus
+- 4× tblock-n2-minus
+- 2× oblock-m8-plus
+- 2× oblock-m8-minus
+- 4× tblock-n3-plus
+- 4× tblock-n3-minus
 
 ## Palygorskite Group
 
-4× oblock-m5-plus
-
-4× tblock-n2-plus
-
-4× tblock-n2-minus
-
-
+- 4× oblock-m5-plus
+- 4× tblock-n2-plus
+- 4× tblock-n2-minus
 
 ## Sepiolite Group
 
-2× oblock-m8-plus
-
-2× oblock-m8-minus
-
-4× tblock-n3-plus
-
-4× tblock-n3-minus
-
-
+- 2× oblock-m8-plus
+- 2× oblock-m8-minus
+- 4× tblock-n3-plus
+- 4× tblock-n3-minus
 
 ## Kalifersite
 
-4× oblock-m3-plus
+- 4× oblock-m3-plus
+- 4× tblock-n2-plus
+- 4× tblock-n2-minus
+- 4× oblock-m6-plus
+- 4× tblock-n3-plus
+- 4× tblock-n3-minus
 
-4× tblock-n2-plus
+## Brucite Group
 
-4× tblock-n2-minus
+- 4× oblock-m5-plus
+- 2× single-octahedron
+- 2× single-octahedron-clips
+- 4× brucite-connector
 
-4× oblock-m6-plus
+## Lizardite (Kaolinite-Serpentine Group)
 
-4× tblock-n3-plus
+- 4× oblock-m5-plus
+- 4× tblock-n2-plus
+- 2× single-octahedron
+- 2× single-octahedron-clips
+- 4× lizardite-connector
 
-4× tblock-n3-minus
+## Chlorite Group
 
-
-Brucite Group
-
-4× oblock-m5-plus
-
-2× single-octahedron
-
-2× single-octahedron-clips
-
-4× brucite-connector
-
-
-
-Lizardite (Kaolinite-Serpentine Group)
-
-4× oblock-m5-plus
-
-4× tblock-n2-plus
-
-2× single-octahedron
-
-2× single-octahedron-clips
-
-4× lizardite-connector
-
-
-
-Chlorite Group
-
-4× oblock-m5-plus
-
-2× oblock-m5-minus
-
-4× tblock-n2-plus
-
-4× tblock-n2-minus
-
-3× single-octahedron
-
-3× single-octahedron-clips
-
-4× chlorite-connector
-
+- 4× oblock-m5-plus
+- 2× oblock-m5-minus
+- 4× tblock-n2-plus
+- 4× tblock-n2-minus
+- 3× single-octahedron
+- 3× single-octahedron-clips
+- 4× chlorite-connector
 
 # Method documentation
 
