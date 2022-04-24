@@ -8,7 +8,10 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 The 3D models are available as \*.3mf (PrusaSlicer project files) and \*.stl files for 3D printing. 
 Note that the \*.3mf files include the positions for support enforcers for *O* modules (`oblock`), 
-whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforcer`) has to be added for the overhanging horizontal pegs of the *O* modules.
+whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforcer`) has to be added for the overhanging horizontal pegs of the *O* modules. 
+When slicing (in PrusaSlicer), right click on the *O* module, then "add support enforcer".
+It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
+The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need supports).
 
 ## Questions?
 
@@ -20,7 +23,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 
 <!-- todo: add links -->
 
-- `3mf/`							All the \*.3mf (Prusaslicer project files) can be found in this folder.
+- `3mf/`							All the \*.3mf (PrusaSlicer project files) can be found in this folder.
 <!-- todo: add these files -->
 
 - [`stl/`](stl/)					All the \*.stl files can be found in this folder.
@@ -51,7 +54,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
     - [`oblock-m8-plus.stl`](stl/oblock/oblock-m8-plus.stl)						Triple chain (*w* = 3) *O<sup>+</sup>* module.
     - [`oblock-m11-minus.stl`](stl/oblock/oblock-m11-minus.stl)					Quadruple chain (*w* = 4) *O<sup>−</sup>* module.
     - [`oblock-m11-plus.stl`](stl/oblock/oblock-m11-plus.stl)					Quadruple chain (*w* = 4) *O<sup>+</sup>* module.
-    - [`oblock-support-enforcer.stl`](stl/oblock/oblock-support-enforcer.stl)	Support enforcer for the *O* modules. When slicing (in Prusaslicer), right click on the *O* module, then "add support enforcer". 
+    - [`oblock-support-enforcer.stl`](stl/oblock/oblock-support-enforcer.stl)	Support enforcer for the *O* modules. When slicing (in PrusaSlicer), right click on the *O* module, then "add support enforcer". 
 																				It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
 																				The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need support).
     - [`single-octahedron-clips.stl`](stl/oblock/single-octahedron-clips.stl)	An octahedron that fits between *O* modules that are joined by phyllosilicate-type linkages to fill in the missing sites.

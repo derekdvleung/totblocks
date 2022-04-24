@@ -78,9 +78,9 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 [^1]: Note that the *T<sup>+</sup>* and *T<sup>−</sup>* notation is used here to differentiate between the two types of T modules. 
  However, the *T<sup>+</sup>* and *T<sup>−</sup>* notation actually corresponds to the orientation of the *T* modules (apices pointing up = <sup>+</sup>, down = <sup>−</sup>) rather than the modules themselves.
 
-# Bill of Materials
+# Bill of materials
 
-## Mica Group (2:1 Phyllosilicates)
+## Mica group (2:1 phyllosilicates)
 
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
@@ -89,7 +89,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 2× single-octahedron-clips
 - 2× mica-connector
 
-## Pyroxene Group
+## Pyroxene group
 
 ### Clinopyroxene
 
@@ -111,7 +111,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 8× tblock-n2-plus
 - 8× tblock-n2-minus
 
-## Amphibole Supergroup
+## Amphibole supergroup
 
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
@@ -134,13 +134,13 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
-## Palygorskite Group
+## Palygorskite group
 
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
 
-## Sepiolite Group
+## Sepiolite group
 
 - 2× oblock-m8-plus
 - 2× oblock-m8-minus
@@ -156,14 +156,14 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
-## Brucite Group
+## Brucite group
 
 - 4× oblock-m5-plus
 - 2× single-octahedron
 - 2× single-octahedron-clips
 - 4× brucite-connector
 
-## Lizardite (Kaolinite-Serpentine Group)
+## Lizardite (kaolinite-serpentine group)
 
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
@@ -171,7 +171,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 2× single-octahedron-clips
 - 4× lizardite-connector
 
-## Chlorite Group
+## Chlorite group
 
 - 4× oblock-m5-plus
 - 2× oblock-m5-minus
