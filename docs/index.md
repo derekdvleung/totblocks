@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 <!-- This is a test landing page for TotBlocks. -->
 
 # Introduction
