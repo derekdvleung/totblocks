@@ -83,6 +83,18 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 
 # Bill of materials
 
+## Starter set (can be used to build most of the structures)
+
+- 4× oblock-m2-plus
+- 4× tblock-n1-plus
+- 4× tblock-n1-minus
+- 4× oblock-m5-plus
+- 4× tblock-n2-plus
+- 4× tblock-n2-minus
+- 4× single-octahedron
+- 4× single-octahedron-clips
+- 2× mica-connector (or the other connectors, depending on if the others should be printed)
+
 ## Mica group (2:1 phyllosilicates)
 
 - 4× oblock-m5-plus
