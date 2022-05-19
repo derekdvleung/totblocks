@@ -13,6 +13,8 @@ When slicing (in PrusaSlicer), right click on the *O* module, then "add support 
 It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
 The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need supports).
 
+For more information on 3D printing TotBlocks, check out [TotBlocks on Printables](https://www.printables.com/model/177357-totblocks).
+
 ## Questions?
 
 If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
