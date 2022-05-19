@@ -13,6 +13,8 @@ When slicing (in PrusaSlicer), right click on the *O* module, then "add support 
 It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
 The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need supports).
 
+For more information on 3D printing TotBlocks, check out [TotBlocks on Printables](https://www.printables.com/model/177357-totblocks).
+
 ## Questions?
 
 If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
@@ -94,6 +96,8 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 4× single-octahedron
 - 4× single-octahedron-clips
 - 2× mica-connector (or the other connectors, depending on if the others should be printed)
+
+Additional blocks beyond the starter set are needed to build the orthopyroxene, protopyroxene, [clinojimthompsonite,] chesterite, sepiolite, and kalifersite structures.
 
 ## Mica group (2:1 phyllosilicates)
 
