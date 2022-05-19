@@ -1649,20 +1649,24 @@ module micaPeg (){
 
 //Pegs for chlorite- and brucite-group minerals, as well as lizardite (kaolinite-serpentine group)
 module chloriteBrucitePeg(length){
-translate ([-o/2, -ox,0])
-rotate([0,0,90])
-triPrism(pegRadius/sqrt(3), pegZLength+lengthTolerance);
+    
+    rotate([90,0,0])
+    rotate([0,0,90])
+    translate([o/2, ox, 0]){
+        translate ([-o/2, -ox,0])
+        rotate([0,0,90])
+        triPrism(pegRadius/sqrt(3), pegZLength+lengthTolerance);
 
-difference(){
-translate ([-o/2, -ox,length/2+pegZLength+lengthTolerance])
-rotate([0,0,90])
-pegCham(length/2, pegRadius,length/2);
+        difference(){
+            translate ([-o/2, -ox,length/2+pegZLength+lengthTolerance])
+            rotate([0,0,90])
+            pegCham(length/2, pegRadius,length/2);
 
-octZ3() oct();
-octZ3(1,0) oct();
-octZ3(1,1) oct();
-
-}
+            octZ3() oct();
+            octZ3(1,0) oct();
+            octZ3(1,1) oct();
+        }
+    }
 }
 
 
