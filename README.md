@@ -108,6 +108,8 @@ Additional blocks beyond the starter set are needed to build the orthopyroxene, 
 - 2× single-octahedron-clips
 - 2× mica-connector
 
+https://doi.org/10.5446/57470
+
 ## Pyroxene group
 
 ### Clinopyroxene
