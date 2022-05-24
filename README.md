@@ -4,6 +4,9 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
+[TotBlocks Video Abstract Video](https://doi.org/10.5446/57470)
+[Assembly of TotBlocks Video](https://doi.org/10.5446/57471)
+
 ## How do I 3D print TotBlocks?
 
 [3D Printing TotBlocks Video](https://doi.org/10.5446/57483)
@@ -111,17 +114,19 @@ Additional blocks beyond the starter set are needed to build the orthopyroxene, 
 - 2× single-octahedron-clips
 - 2× mica-connector
 
-https://doi.org/10.5446/57470
+[2:1 Phyllosilicates Video](https://doi.org/10.5446/57470)
 
 ## Pyroxene group
 
-https://doi.org/10.5446/57473
+[Pyroxene Group Video](https://doi.org/10.5446/57473)
 
 ### Clinopyroxene
 
 - 4× oblock-m2-plus
 - 4× tblock-n1-plus
 - 4× tblock-n1-minus
+
+[Pyroxene Group Video](https://doi.org/10.5446/57473)
 
 ### Orthopyroxene
 
@@ -130,6 +135,8 @@ https://doi.org/10.5446/57473
 - 8× tblock-n2-plus
 - 8× tblock-n2-minus
 
+[Pyroxene Group Video](https://doi.org/10.5446/57473)
+
 ### Protopyroxene
 
 - 4× oblock-m5-plus
@@ -137,13 +144,15 @@ https://doi.org/10.5446/57473
 - 8× tblock-n2-plus
 - 8× tblock-n2-minus
 
+[Pyroxene Group Video](https://doi.org/10.5446/57473)
+
 ## Amphibole supergroup
 
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
 
-https://doi.org/10.5446/57474
+[Amphibole Supergroup Video](https://doi.org/10.5446/57474)
 
 ## Clinojimthompsonite
 
@@ -151,7 +160,7 @@ https://doi.org/10.5446/57474
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
-https://doi.org/10.5446/57475
+[Clinojimthompsonite and Chesterite Video](https://doi.org/10.5446/57475)
 
 ## Chesterite
 
@@ -164,7 +173,7 @@ https://doi.org/10.5446/57475
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
-https://doi.org/10.5446/57475
+[Clinojimthompsonite and Chesterite Video](https://doi.org/10.5446/57475)
 
 ## Palygorskite group
 
@@ -172,7 +181,7 @@ https://doi.org/10.5446/57475
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
 
-https://doi.org/10.5446/57476
+[Palygorskite Group](https://doi.org/10.5446/57476)
 
 ## Sepiolite group
 
@@ -181,7 +190,7 @@ https://doi.org/10.5446/57476
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
-https://doi.org/10.5446/57477
+[Sepiolite Group](https://doi.org/10.5446/57477)
 
 ## Kalifersite
 
@@ -192,7 +201,7 @@ https://doi.org/10.5446/57477
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
-https://doi.org/10.5446/57479
+[Kalifersite Video](https://doi.org/10.5446/57479)
 
 ## Brucite group
 
@@ -201,7 +210,7 @@ https://doi.org/10.5446/57479
 - 2× single-octahedron-clips
 - 4× brucite-connector
 
-https://doi.org/10.5446/57480
+[Brucite Group Video](https://doi.org/10.5446/57480)
 
 ## Lizardite (kaolinite-serpentine group)
 
@@ -211,7 +220,7 @@ https://doi.org/10.5446/57480
 - 2× single-octahedron-clips
 - 4× lizardite-connector
 
-https://doi.org/10.5446/57481
+[Kaolinite-Serpentine Group Video](https://doi.org/10.5446/57481)
 
 ## Chlorite group
 
@@ -223,7 +232,7 @@ https://doi.org/10.5446/57481
 - 3× single-octahedron-clips
 - 4× chlorite-connector
 
-https://doi.org/10.5446/57482
+[Chlorite Group](https://doi.org/10.5446/57482)
 
 # Method documentation
 
