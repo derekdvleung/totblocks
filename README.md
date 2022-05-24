@@ -6,6 +6,8 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 ## How do I 3D print TotBlocks?
 
+[3D Printing TotBlocks Video](https://doi.org/10.5446/57483)
+
 The 3D models are available as \*.3mf (PrusaSlicer project files) and \*.stl files for 3D printing. 
 Note that the \*.3mf files include the positions for support enforcers for *O* modules (`oblock`), 
 whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforcer`) has to be added for the overhanging horizontal pegs of the *O* modules. 
@@ -14,6 +16,7 @@ It should be in the correct spot for single chain modules, but will need to be r
 The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need supports).
 
 For more information on 3D printing TotBlocks, check out [TotBlocks on Printables](https://www.printables.com/model/177357-totblocks).
+
 
 ## Questions?
 
@@ -112,6 +115,8 @@ https://doi.org/10.5446/57470
 
 ## Pyroxene group
 
+https://doi.org/10.5446/57473
+
 ### Clinopyroxene
 
 - 4× oblock-m2-plus
@@ -138,11 +143,15 @@ https://doi.org/10.5446/57470
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
 
+https://doi.org/10.5446/57474
+
 ## Clinojimthompsonite
 
 - 4× oblock-m8-plus
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
+
+https://doi.org/10.5446/57475
 
 ## Chesterite
 
@@ -155,11 +164,15 @@ https://doi.org/10.5446/57470
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
+https://doi.org/10.5446/57475
+
 ## Palygorskite group
 
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
+
+https://doi.org/10.5446/57476
 
 ## Sepiolite group
 
@@ -167,6 +180,8 @@ https://doi.org/10.5446/57470
 - 2× oblock-m8-minus
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
+
+https://doi.org/10.5446/57477
 
 ## Kalifersite
 
@@ -177,12 +192,16 @@ https://doi.org/10.5446/57470
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
+https://doi.org/10.5446/57479
+
 ## Brucite group
 
 - 4× oblock-m5-plus
 - 2× single-octahedron
 - 2× single-octahedron-clips
 - 4× brucite-connector
+
+https://doi.org/10.5446/57480
 
 ## Lizardite (kaolinite-serpentine group)
 
@@ -191,6 +210,8 @@ https://doi.org/10.5446/57470
 - 2× single-octahedron
 - 2× single-octahedron-clips
 - 4× lizardite-connector
+
+https://doi.org/10.5446/57481
 
 ## Chlorite group
 
@@ -201,6 +222,8 @@ https://doi.org/10.5446/57470
 - 3× single-octahedron
 - 3× single-octahedron-clips
 - 4× chlorite-connector
+
+https://doi.org/10.5446/57482
 
 # Method documentation
 
