@@ -5,6 +5,7 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
 [TotBlocks Video Abstract Video](https://doi.org/10.5446/57470)
+
 [Assembly of TotBlocks Video](https://doi.org/10.5446/57471)
 
 ## How do I 3D print TotBlocks?
@@ -24,6 +25,7 @@ For more information on 3D printing TotBlocks, check out [TotBlocks on Printable
 ## Questions?
 
 If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
+
 If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
 
 
