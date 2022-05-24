@@ -25,7 +25,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 
 <!-- todo: add links -->
 
-- [`3mf/`](3mf/)					All the /*.3mf (PrusaSlicer project files) can be found in this folder. See below (/*.stl folder contents) for descriptions of the respective /*.3mf files. Note that not all of the /*.stl files have a /*.3mf equivalent.
+- [`3mf/`](3mf/)					All the \*.3mf (PrusaSlicer project files) can be found in this folder. See below (\*.stl folder contents) for descriptions of the respective \*.3mf files. Note that not all of the \*.stl files have a \*.3mf equivalent.
 <!-- todo: add these files -->
 
 - [`stl/`](stl/)					All the \*.stl files can be found in this folder.
