@@ -1884,9 +1884,9 @@ module oModuleDioctahedral(m = 5, apex = PLUS){
 //n=1;
 //m = 3*n-1;
 
-//tBlock (n=1, apex = PLUS);
+tBlock (n=1, apex = PLUS);
 
-oBlockDioctahedral (m = 5, apex = MINUS);
+oBlock (m = 2, apex = PLUS);
 
 //oBlockKalifersite (m = 3, apex = PLUS);
 
