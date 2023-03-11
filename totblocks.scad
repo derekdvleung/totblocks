@@ -1811,6 +1811,68 @@ module multiColourQtz(){
 }
 
 
+// O module intended for dioctahedral minerals
+module oBlockDioctahedral(m=5, apex = PLUS){
+	oXModulePegs(m,apex);
+
+	difference(){
+
+		union(){
+			oModuleDioctahedral(m,apex);
+			intersection(){
+				union(){
+					for (j = [1+apex:numBlocks*2-1+apex])
+					for (i = [1:ceil(m/2)-(j%2==0 && m%2==1?1:0)]){
+						//bottom
+                        
+						octZ3(i,j,apex)
+						//translate([0,oa/2,0])
+						//rotate([0,0,pegZRotate])
+						translate([0,oa/2,0])
+						rotate([0,0,pegZRotate])
+						pegSlot(length = oAdjustHexHeight, radius = pegRadius + 1.2 + toleranceZ); 
+					}
+			
+					for (j = [2-apex:numBlocks*2-apex])
+					for (i = [1:ceil(m/2)-(j%2==0 && m%2==1?1:0)]){
+						//top
+						octZ3(i,j,apex)
+						//translate([0,oa/2,0])
+						//rotate([0,0,pegZRotate])
+						translate([0,-oa/2,oh])
+						rotate([0,0,pegZRotate])
+						pegSlot(length = oAdjustHexHeight, radius = pegRadius + 1.2 + toleranceZ); 	
+					}
+				}
+				
+			translate([((1+m)/3-2)*ts,t*(extraBlocks+0.5),oh/2])
+			cube([o*(1+m)/2,2*t*(extraBlocks+1), oh], 		center = true);
+		}
+	}
+		oZModuleSlots(m,apex, topCham = 0, bottomCham =1);
+		oXModuleSlots(m,apex);
+	}
+}
+
+// Produces the base O module without any pegs or slots
+module oModuleDioctahedral(m = 5, apex = PLUS){  
+//        slideY(2*os, numBlocks -1)
+//            octZ(m, apex);
+//        if (numBlocks %1 ==0.5)
+//            translate([0,2*os*(numBlocks-0.5),0])
+//		#octZ(m, apex, oddsEvens=1);
+    for (i = [1:1:(m+1)/2]){
+        for (j = [1:1:numBlocks*2]){
+             // remove every third octahedron
+            if ((j%2 + i)% 3 == 0){}
+            else{
+                octZ3(i, j, apex)
+                oct();
+                }
+         }
+     }
+}
+
 /****************************************************************************************************************************
 
 										MAIN METHOD
@@ -1822,9 +1884,9 @@ module multiColourQtz(){
 //n=1;
 //m = 3*n-1;
 
-tBlock (n=1, apex = PLUS);
+//tBlock (n=1, apex = PLUS);
 
-oBlock (m = 2, apex = PLUS);
+oBlockDioctahedral (m = 5, apex = MINUS);
 
 //oBlockKalifersite (m = 3, apex = PLUS);
 
