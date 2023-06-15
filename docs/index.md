@@ -8,7 +8,7 @@ Table of contents
 
 # Introduction
 
-TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of modular rock-forming minerals, including minerals of the biotite-pyroxene-amphibole (biopyribole) and palygorskite-sepiolite (palysepiole) series, as well as layered minerals of the brucite, kaolinite-serpentine, and chlorite groups.
+TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of modular rock-forming minerals, including minerals of the biotite-pyroxene-amphibole (biopyribole) and palygorskite-sepiolite (palysepiole) series, as well as layered minerals of the brucite, kaolinite-serpentine, and chlorite groups. To learn more, check out the video below and the links to the 
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
@@ -28,7 +28,7 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
 If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
 
-
+~~~
 # Repository contents
 
 <!-- todo: add links -->
@@ -90,6 +90,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 
 [^1]: Note that the *T<sup>+</sup>* and *T<sup>−</sup>* notation is used here to differentiate between the two types of T modules. 
  However, the *T<sup>+</sup>* and *T<sup>−</sup>* notation actually corresponds to the orientation of the *T* modules (apices pointing up = <sup>+</sup>, down = <sup>−</sup>) rather than the modules themselves.
+~~~
 
 # Bill of materials
 
