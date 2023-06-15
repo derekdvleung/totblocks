@@ -21,12 +21,12 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 - **TotBlocks mirrored repository on Zenodo:** [Leung, D.D.V. (2022) derekdvleung/totblocks: TotBlocks 2022.05 (totblocks-2022.05), Zenodo [code], https://doi.org/10.5281/zenodo.5240816.](https://zenodo.org/badge/latestdoi/398404495) 
 <!-- [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)-->
 
-- **TotBlocks on GitHub:** [https://github.com/derekdvleung/totblocks](https://github.com/derekdvleung/totblocks)
+- **TotBlocks YouTube playlist:** [https://youtube.com/playlist?list=PLn1WI6cV9CAvNvtO0wXdM_Uy9zV6C942s](https://youtube.com/playlist?list=PLn1WI6cV9CAvNvtO0wXdM_Uy9zV6C942s)
 
+- **TotBlocks on GitHub:** [https://github.com/derekdvleung/totblocks](https://github.com/derekdvleung/totblocks)
   -	If you have any questions, please start a thread in the [discussion here](https://github.com/derekdvleung/totblocks/discussions).
 If you see any issues, please submit an [issue here](https://github.com/derekdvleung/totblocks/issues).
 
-- **TotBlocks YouTube playlist:** [https://youtube.com/playlist?list=PLn1WI6cV9CAvNvtO0wXdM_Uy9zV6C942s](https://youtube.com/playlist?list=PLn1WI6cV9CAvNvtO0wXdM_Uy9zV6C942s)
 
 # How do I 3D print TotBlocks?
 
