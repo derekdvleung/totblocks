@@ -1,4 +1,4 @@
-# Table of contents
+Table of contents
 * TOC
 {:toc}
 
@@ -8,7 +8,7 @@
 
 # Introduction
 
-TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of biopyribole-palysepiole minerals.
+TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of modular rock-forming minerals, including minerals of the biotite-pyroxene-amphibole (biopyribole) and palygorskite-sepiolite (palysepiole) series, as well as layered minerals of the brucite, kaolinite-serpentine, and chlorite groups.
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
