@@ -18,7 +18,7 @@ TotBlocks design and theory paper: [Leung, D.D.V. and dePolo, P.E. (2022) TotBlo
 
 TotBlocks pedagogical case study: [Leung, D.D.V. and dePolo, P.E. (2023) GC Insights: The crystal structures behind the optical properties of minerals - a case study of using TotBlocks in an undergraduate mineralogy lab. _Geoscience Communcation_, preprint on EGUsphere.](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-294/)
 
-TotBlocks mirrored repository on Zenodo: [Leung, D.D.V. (2022) derekdvleung/totblocks: TotBlocks 2022.05 (totblocks-2022.05), Zenodo [code]](https://zenodo.org/badge/latestdoi/398404495) [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
+TotBlocks mirrored repository on Zenodo: [Leung, D.D.V. (2022) derekdvleung/totblocks: TotBlocks 2022.05 (totblocks-2022.05), Zenodo [code].](https://zenodo.org/badge/latestdoi/398404495) [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
 TotBlocks on GitHub: [https://github.com/derekdvleung/totblocks](https://github.com/derekdvleung/totblocks)
 
