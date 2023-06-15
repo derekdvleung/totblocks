@@ -28,6 +28,12 @@ If you see any issues, please submit an [issue here](https://github.com/derekdvl
 
 # How do I 3D print TotBlocks?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GAaxp7R7IAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+To 3D print TotBlocks, check out the video above. 
+
+[TotBlocks 3D models on Printables](https://www.printables.com/model/177357-totblocks)
+
 The 3D models are available as \*.3mf (PrusaSlicer project files) and \*.stl files for 3D printing. 
 Note that the \*.3mf files include the positions for support enforcers for *O* modules (`oblock`), 
 whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforcer`) has to be added for the overhanging horizontal pegs of the *O* modules. 
