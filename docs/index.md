@@ -12,9 +12,14 @@ Table of contents
 
 TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of modular rock-forming minerals, including minerals of the biotite-pyroxene-amphibole (biopyribole) and palygorskite-sepiolite (palysepiole) series, as well as layered minerals of the brucite, kaolinite-serpentine, and chlorite groups. To learn more about TotBlocks, check out the video above and the papers on the design and theory of TotBlocks, as well as a case study of using TotBlocks in an undergradute mineralogy lab session.
 
-TotBlocks mirrored repository on Zenodo: [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
+
 
 TotBlocks design and theory paper: [Leung, D.D.V. and dePolo, P.E. (2022) TotBlocks: exploring the relationships between modular rock-forming minerals with 3D-printed interlocking brick modules. _European Journal of Mineralogy_, 34, 523-538.](https://ejm.copernicus.org/articles/34/523/2022/)
+
+TotBlocks pedagogical case study: [Leung, D.D.V. and dePolo, P.E. (2022) TotBlocks: exploring the relationships between modular rock-forming minerals with 3D-printed interlocking brick modules. _European Journal of Mineralogy_, 34, 523-538.](https://ejm.copernicus.org/articles/34/523/2022/)
+
+TotBlocks on GitHub: [https://github.com/derekdvleung/totblocks](https://github.com/derekdvleung/totblocks)
+TotBlocks mirrored repository on Zenodo: [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
 If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
 If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
@@ -28,7 +33,7 @@ When slicing (in PrusaSlicer), right click on the *O* module, then "add support 
 It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
 The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need supports).
 
-# Bill of materials
+# Building the crystal structures
 
 ## Mica group (2:1 phyllosilicates)
 
