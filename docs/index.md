@@ -14,16 +14,16 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 ## Useful publications and links
 
- - TotBlocks design and theory paper: [Leung, D.D.V. and dePolo, P.E. (2022) TotBlocks: exploring the relationships between modular rock-forming minerals with 3D-printed interlocking brick modules. _European Journal of Mineralogy_, 34, 523-538, https://doi.org/10.5194/ejm-34-523-2022.](https://ejm.copernicus.org/articles/34/523/2022/)
+- TotBlocks design and theory paper: [Leung, D.D.V. and dePolo, P.E. (2022) TotBlocks: exploring the relationships between modular rock-forming minerals with 3D-printed interlocking brick modules. _European Journal of Mineralogy_, 34, 523-538, https://doi.org/10.5194/ejm-34-523-2022.](https://ejm.copernicus.org/articles/34/523/2022/)
 
- - TotBlocks pedagogical case study: [Leung, D.D.V. and dePolo, P.E. (2023) GC Insights: The crystal structures behind the optical properties of minerals - a case study of using TotBlocks in an undergraduate mineralogy lab. _Geoscience Communcation_, preprint on EGUsphere, https://doi.org/10.5194/egusphere-2023-294.](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-294/)
+- TotBlocks pedagogical case study: [Leung, D.D.V. and dePolo, P.E. (2023) GC Insights: The crystal structures behind the optical properties of minerals - a case study of using TotBlocks in an undergraduate mineralogy lab. _Geoscience Communcation_, preprint on EGUsphere, https://doi.org/10.5194/egusphere-2023-294.](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-294/)
 
- - TotBlocks mirrored repository on Zenodo: [Leung, D.D.V. (2022) derekdvleung/totblocks: TotBlocks 2022.05 (totblocks-2022.05), Zenodo [code], https://doi.org/10.5281/zenodo.5240816.](https://zenodo.org/badge/latestdoi/398404495) 
+- TotBlocks mirrored repository on Zenodo: [Leung, D.D.V. (2022) derekdvleung/totblocks: TotBlocks 2022.05 (totblocks-2022.05), Zenodo [code], https://doi.org/10.5281/zenodo.5240816.](https://zenodo.org/badge/latestdoi/398404495) 
 <!-- [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)-->
 
- - TotBlocks on GitHub: [https://github.com/derekdvleung/totblocks](https://github.com/derekdvleung/totblocks)
+- TotBlocks on GitHub: [https://github.com/derekdvleung/totblocks](https://github.com/derekdvleung/totblocks)
 
-    -	If you have any questions, please start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
+  -	If you have any questions, please start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
 If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
 
 # How do I 3D print TotBlocks?
