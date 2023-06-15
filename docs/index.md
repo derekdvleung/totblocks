@@ -8,13 +8,16 @@ Table of contents
 
 # Introduction
 
-TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of modular rock-forming minerals, including minerals of the biotite-pyroxene-amphibole (biopyribole) and palygorskite-sepiolite (palysepiole) series, as well as layered minerals of the brucite, kaolinite-serpentine, and chlorite groups. To learn more about TotBlocks, check out the video below
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pNsD5MDUdqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of modular rock-forming minerals, including minerals of the biotite-pyroxene-amphibole (biopyribole) and palygorskite-sepiolite (palysepiole) series, as well as layered minerals of the brucite, kaolinite-serpentine, and chlorite groups. To learn more about TotBlocks, check out the video above and the papers on the design and theory of TotBlocks, as well as a case study of using TotBlocks in an undergradute mineralogy lab session.
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pNsD5MDUdqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
+If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
 
-## How do I 3D print TotBlocks?
+# How do I 3D print TotBlocks?
 
 The 3D models are available as \*.3mf (PrusaSlicer project files) and \*.stl files for 3D printing. 
 Note that the \*.3mf files include the positions for support enforcers for *O* modules (`oblock`), 
@@ -22,11 +25,6 @@ whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforc
 When slicing (in PrusaSlicer), right click on the *O* module, then "add support enforcer".
 It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
 The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need supports).
-
-## Questions?
-
-If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
-If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
 
 # Bill of materials
 
