@@ -14,6 +14,7 @@ TotBlocks are a series of 3D-printed mineral building blocks for constructing th
 
 TotBlocks mirrored repository on Zenodo: [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
 
+TotBlocks design and theory paper: [Leung and dePolo, 2022](https://ejm.copernicus.org/articles/34/523/2022/)
 
 If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
 If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
