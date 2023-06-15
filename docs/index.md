@@ -30,16 +30,20 @@ If you see any issues, please submit an [issue here](https://github.com/derekdvl
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GAaxp7R7IAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-To 3D print TotBlocks, check out the video above. 
-
-[TotBlocks 3D models on Printables](https://www.printables.com/model/177357-totblocks)
-
-The 3D models are available as \*.3mf (PrusaSlicer project files) and \*.stl files for 3D printing. 
-Note that the \*.3mf files include the positions for support enforcers for *O* modules (`oblock`), 
+To 3D print TotBlocks, check out the video above. The 3D models for TotBlocks can be found on [Printables here](https://www.printables.com/model/177357-totblocks). The 3D models are available as \*.3mf (PrusaSlicer project files) and \*.stl files for 3D printing. 
+Note that the \*.3mf files include the positions for support enforcers for *O* modules (`oblock`) to be used with PrusaSlicer, 
 whereas for \*.stl files the support enforcer (`stl/oblock/oblock-support-enforcer`) has to be added for the overhanging horizontal pegs of the *O* modules. 
 When slicing (in PrusaSlicer), right click on the *O* module, then "add support enforcer".
 It should be in the correct spot for single chain modules, but will need to be repositioned for other modules.
 The support enforcer should be placed so that it covers the top widthwise pegs (these are overhangs, and thus need supports).
+
+## Supported 3D printers
+
+TotBlocks has been tested on the following 3D printers:
+- Prusa i3 MK3S (original design for TotBlocks)
+- Creality Ender 5
+- Creality Ender 3
+- Ultimaker S5 (some issues with peg and slot tolerances)
 
 # Building the crystal structures
 
