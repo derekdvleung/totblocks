@@ -1,11 +1,18 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pNsD5MDUdqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 * TOC
 {:toc}
+
+
+
+
 
 <!-- This is a test landing page for TotBlocks. -->
 
 <!-- TODO: add paper link, youtube resources, printables -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pNsD5MDUdqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 # Introduction
 
