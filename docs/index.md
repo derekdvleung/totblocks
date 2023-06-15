@@ -45,6 +45,8 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ## Mica group (2:1 phyllosilicates)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B0o2lecr-tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
@@ -53,6 +55,8 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 - 2× mica-connector
 
 ## Pyroxene group
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7puU0kn26aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Clinopyroxene
 
@@ -75,6 +79,8 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 - 8× tblock-n2-minus
 
 ## Amphibole supergroup
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZTIgtaDmqug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
