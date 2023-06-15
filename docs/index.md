@@ -12,7 +12,8 @@ Table of contents
 
 TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of modular rock-forming minerals, including minerals of the biotite-pyroxene-amphibole (biopyribole) and palygorskite-sepiolite (palysepiole) series, as well as layered minerals of the brucite, kaolinite-serpentine, and chlorite groups. To learn more about TotBlocks, check out the video above and the papers on the design and theory of TotBlocks, as well as a case study of using TotBlocks in an undergradute mineralogy lab session.
 
-[![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
+TotBlocks mirrored repository on Zenodo: [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
+
 
 If you have any questions, start a thread in the [discussion](https://github.com/derekdvleung/totblocks/discussions)!
 If you see any issues, please submit an [issue](https://github.com/derekdvleung/totblocks/issues).
