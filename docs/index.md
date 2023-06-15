@@ -43,10 +43,13 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 # Building the crystal structures
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JqNwlT4ukXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Mica group (2:1 phyllosilicates)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B0o2lecr-tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+Parts needed:
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
@@ -60,12 +63,14 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ### Clinopyroxene
 
+Parts needed:
 - 4× oblock-m2-plus
 - 4× tblock-n1-plus
 - 4× tblock-n1-minus
 
 ### Orthopyroxene
 
+Parts needed:
 - 4× oblock-m5-plus
 - 4× oblock-m5-minus
 - 8× tblock-n2-plus
@@ -73,6 +78,7 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ### Protopyroxene
 
+Parts needed:
 - 4× oblock-m5-plus
 - 4× oblock-m5-minus
 - 8× tblock-n2-plus
@@ -82,18 +88,25 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZTIgtaDmqug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+Parts needed:
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
 
 ## Clinojimthompsonite
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aJ-CMEkaL5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 4× oblock-m8-plus
 - 4× tblock-n3-plus
 - 4× tblock-n3-minus
 
 ## Chesterite
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aJ-CMEkaL5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 2× oblock-m5-plus
 - 2× oblock-m5-minus
 - 4× tblock-n2-plus
@@ -105,12 +118,18 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ## Palygorskite group
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_oIfYW3Yn7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
 
 ## Sepiolite group
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y6VKkh_y93w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 2× oblock-m8-plus
 - 2× oblock-m8-minus
 - 4× tblock-n3-plus
@@ -118,6 +137,9 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ## Kalifersite
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xG3E6Dk2YI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 4× oblock-m3-plus
 - 4× tblock-n2-plus
 - 4× tblock-n2-minus
@@ -127,6 +149,9 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ## Brucite group
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X81bQ844Kgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 4× oblock-m5-plus
 - 2× single-octahedron
 - 2× single-octahedron-clips
@@ -134,6 +159,9 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ## Lizardite (kaolinite-serpentine group)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_taepX3pt5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 4× oblock-m5-plus
 - 4× tblock-n2-plus
 - 2× single-octahedron
@@ -142,6 +170,9 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 ## Chlorite group
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0-9Vbss5MxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Parts needed:
 - 4× oblock-m5-plus
 - 2× oblock-m5-minus
 - 4× tblock-n2-plus
