@@ -24,9 +24,12 @@ tx = t/sqrt(12); //length of line segment from base of triangle to centroid of t
 th = sqrt(6)/3*t; // true height of tetrahedron
 tCR = sqrt(6)/4*t; //circumradius of tetrahedron
 
-factor = tCR/1.62; //the scale of the structure, assuming a Si-O bond distance of 1.619 A
+factor = tCR/1.62; //the scale of the structure, assuming a Si-O bond distance of 1.62 A (Smith and Bailey, 1963)
 
 //echo(oh);
+echo ("factor:" , factor);
+echo (factor*3.2/2);
+echo (tCR);
 echo (th/factor); // real height of tetrahedron in A
 echo (oh/factor); // real height of octahedron in A
 
