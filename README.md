@@ -114,7 +114,7 @@ Additional blocks beyond the starter set are needed to build the orthopyroxene, 
 - 4× tblock-n2-minus
 - 2× single-octahedron
 - 2× single-octahedron-clips
-- 2× mica-connector
+- 2× mica-connector (Note: the mica connectors can be substituted for 2 cm diameter marbles or 3D-printed spheres. These represent the interlayer cations in the mica structure.)
 
 [2:1 Phyllosilicates Video](https://doi.org/10.5446/57470)
 
