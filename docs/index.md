@@ -190,3 +190,7 @@ Parts needed:
 - 3× single-octahedron
 - 3× single-octahedron-clips
 - 4× chlorite-connector
+
+# Contact
+
+To contact Derek D.V. Leung, check out [the contact form on his website here](https://derekdvleung.wixsite.com/main/contact).
