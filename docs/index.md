@@ -63,7 +63,7 @@ Parts needed:
 - 4× tblock-n2-minus
 - 2× single-octahedron
 - 2× single-octahedron-clips
-- 2× mica-connector
+- 2× mica-connector (Note: the mica connectors can be substituted for 2 cm diameter marbles or 3D-printed spheres. These represent the interlayer cations in the mica structure.)
 
 ## Pyroxene group
 
