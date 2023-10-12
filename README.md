@@ -103,7 +103,7 @@ If you see any issues, please submit an [issue](https://github.com/derekdvleung/
 - 4× tblock-n2-minus
 - 4× single-octahedron
 - 4× single-octahedron-clips
-- 2× mica-connector (or the other connectors, depending on if the others should be printed)
+- 2× mica-connector (or the other connectors, depending on if the others should be printed. Note: the mica connectors can be substituted for 2 cm diameter marbles or 3D-printed spheres. These represent the interlayer cations in the mica structure.)
 
 Additional blocks beyond the starter set are needed to build the orthopyroxene, protopyroxene, [clinojimthompsonite,] chesterite, sepiolite, and kalifersite structures.
 
@@ -114,7 +114,7 @@ Additional blocks beyond the starter set are needed to build the orthopyroxene, 
 - 4× tblock-n2-minus
 - 2× single-octahedron
 - 2× single-octahedron-clips
-- 2× mica-connector
+- 2× mica-connector (Note: the mica connectors can be substituted for 2 cm diameter marbles or 3D-printed spheres. These represent the interlayer cations in the mica structure.)
 
 [2:1 Phyllosilicates Video](https://doi.org/10.5446/57470)
 

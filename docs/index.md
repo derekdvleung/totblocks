@@ -63,7 +63,7 @@ Parts needed:
 - 4× tblock-n2-minus
 - 2× single-octahedron
 - 2× single-octahedron-clips
-- 2× mica-connector
+- 2× mica-connector (Note: the mica connectors can be substituted for 2 cm diameter marbles or 3D-printed spheres. These represent the interlayer cations in the mica structure.)
 
 ## Pyroxene group
 
@@ -190,3 +190,7 @@ Parts needed:
 - 3× single-octahedron
 - 3× single-octahedron-clips
 - 4× chlorite-connector
+
+# Contact
+
+To contact Derek D.V. Leung, check out [the contact form on his website here](https://derekdvleung.wixsite.com/main/contact).
