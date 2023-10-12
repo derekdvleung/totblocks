@@ -1887,9 +1887,9 @@ module oModuleDioctahedral(m = 5, apex = PLUS){
 //n=1;
 //m = 3*n-1;
 
-tBlock (n=1, apex = PLUS);
+//tBlock (n=1, apex = PLUS);
 
-oBlock (m = 2, apex = PLUS);
+//oBlock (m = 2, apex = PLUS);
 
 //oBlockKalifersite (m = 3, apex = PLUS);
 
@@ -1906,5 +1906,62 @@ oBlock (m = 2, apex = PLUS);
 
 //quartzModule();
 
+//mica();
+
+
+
+difference(){
+    
+//=translate([0,t, 2*th + oh +  3.2*factor/2])
+translate([0,t-ox+2*ox + numBlocks*t, 2*th + oh +  3.2*factor/2])
+sphere ($fn = 100, r = 10.56);
+    //9.75
+
+translate([0,2*ox + 2*numBlocks*t, 2*th + oh +  3.2*factor])
+TOTChild(n=1,apex = PLUS,m=0){
+    empty();//tBlock (n=2);
+    empty();//oBlock (m=5);
+    tBlockExtrude()
+    tBlock (n=2);
+}
+
+translate([0,2*ox, 2*th + oh +  3.2*factor])
+TOTChild(n=1,apex = PLUS,m=0){
+    empty();//tBlock (n=2);
+    empty();//oBlock (m=5);
+    tBlockExtrude()
+    tBlock (n=2);
+}
+
+TOTChild(n=1,apex = PLUS,m=0){
+    tBlockExtrude()
+    tBlock (n=2);
+    empty();//oBlock (m=5);
+    empty();//tBlock (n=2);
+}
+
+
+translate([0,2*numBlocks*t, 0])
+TOTChild(n=1,apex = PLUS,m=0){
+    tBlockExtrude()
+    tBlock (n=2);
+    empty();//oBlock (m=5);
+    empty();//tBlock (n=2);
+}
+}
+
+module tBlockExtrude (){
+    children();
+    
+    linear_extrude(height = 10, center = false, convexity = 10, twist = 0)
+    projection(cut = false)
+    children();
+}
+
+
+//tBlock(n=2);
+
+// A module that produces no geometry. For use in TOTChild when certain parts should not be generated.
+module empty (){}
 
 
