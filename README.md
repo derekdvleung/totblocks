@@ -1,9 +1,10 @@
 # Introduction
 
 TotBlocks are a series of 3D-printed mineral building blocks for constructing the crystal structures of biopyribole-palysepiole minerals.
-[Website](https://derekdvleung.github.io/totblocks/)
 
 [![DOI](https://zenodo.org/badge/398404495.svg)](https://zenodo.org/badge/latestdoi/398404495)
+
+[Website](https://derekdvleung.github.io/totblocks/)
 
 [TotBlocks Video Abstract Video](https://doi.org/10.5446/57470)
 
