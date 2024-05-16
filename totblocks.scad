@@ -33,13 +33,6 @@ echo (tCR);
 echo (th/factor); // real height of tetrahedron in A
 echo (oh/factor); // real height of octahedron in A
 
-
-//These minerals use vertical pegs to connect the O-O underside bonds, i.e., chloriteBrucitePeg module
-MICA_HEIGHT = 3.2*factor + 2*th; // based on Hendricks and Jefferson (1939)
-CHLORITE_HEIGHT = 7.01*factor; // based on Zanazzi et al. (2007)
-BRUCITE_HEIGHT = 4.73*factor; // based on Nagai et al. (2000)
-LIZARDITE_HEIGHT =7.23*factor; // based on Mellini (1982)
-
 o = 2*(ts-tx);
 b = o/2;
 os = sqrt(3)/2*o; // slant height of octahedron face
@@ -47,6 +40,15 @@ ox = os/3;
 oa = 4*ox; //apex-to-apex length of octahedron (flat)
 oh = sqrt(o*o-(2*ox*2*ox)); //true height of flat-lying octahedron
 oCR = o*sqrt(1/2); // double-checked bond distance of O sites
+
+//These minerals use vertical pegs to connect the O-O underside bonds, i.e., chloriteBrucitePeg module
+MICA_HEIGHT = 3.2*factor + 2*th; // based on Hendricks and Jefferson (1939)
+CHLORITE_HEIGHT = 7.01*factor; // based on Zanazzi et al. (2007)
+BRUCITE_HEIGHT = 4.73*factor; // based on Nagai et al. (2000)
+LIZARDITE_HEIGHT =7.23*factor; // based on Mellini (1982)
+SMECTITE_HEIGHT = 15*factor - oh; // this is the true vertical distance based on Viani et al (2002)
+                //12.98*factor; // this value is the slant height of the pegs, including offset, based on Viani et al. (2002)
+
 
 echo (oCR/factor); // bond distance of O sites
 
@@ -1650,6 +1652,14 @@ module micaPeg (){
 
 }
 
+module smectitePeg (){
+	
+	rotate([90,0,0])
+	pegDoubleCham(SMECTITE_HEIGHT/2+pegZLength, pegRadius,MICA_HEIGHT/2+pegZLength);
+
+}
+
+
 //Pegs for chlorite- and brucite-group minerals, as well as lizardite (kaolinite-serpentine group)
 module chloriteBrucitePeg(length){
     
@@ -1876,6 +1886,9 @@ module oModuleDioctahedral(m = 5, apex = PLUS){
      }
 }
 
+// A module that produces no geometry. For use in TOTChild when certain parts should not be generated.
+module empty (){}
+
 /****************************************************************************************************************************
 
 										MAIN METHOD
@@ -1909,7 +1922,7 @@ module oModuleDioctahedral(m = 5, apex = PLUS){
 //mica();
 
 
-
+/*
 difference(){
     
 //=translate([0,t, 2*th + oh +  3.2*factor/2])
@@ -1957,11 +1970,13 @@ module tBlockExtrude (){
     projection(cut = false)
     children();
 }
+*/
 
+
+smectitePeg();
 
 //tBlock(n=2);
 
-// A module that produces no geometry. For use in TOTChild when certain parts should not be generated.
-module empty (){}
+
 
 
