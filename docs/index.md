@@ -43,9 +43,11 @@ The support enforcer should be placed so that it covers the top widthwise pegs (
 
 TotBlocks has been tested on the following 3D printers:
 - Prusa i3 MK3S (original design for TotBlocks)
-- Creality Ender 5
-- Creality Ender 3
+- Creality Ender 5 (Laurentian University)
+- Creality Ender 3 (thanks to Phillip Barak for testing) 
 - Ultimaker S5 (some issues with peg and slot tolerances)
+- MakerBot Sketch Large (thanks to Loretta Dickson for testing)
+- Entina (thanks to Loretta Dickson for testing)
 
 # Building the crystal structures
 
