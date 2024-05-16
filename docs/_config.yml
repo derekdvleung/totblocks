@@ -2,4 +2,3 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 title: TotBlocks
 description: 3D-printed modular building blocks for constructing the crystal structures of minerals
-{% raw %}{% seo %}{% endraw %}
